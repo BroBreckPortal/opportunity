@@ -1,0 +1,2776 @@
+{
+ "meta": {
+  "title": "ROHACELL Qualification Radar",
+  "owner": "Colin",
+  "scope": "Europe & UK — eVTOL / AAM / cargo UAV and tactical defence UAS",
+  "created": "2026-08-19",
+  "updated": "2026-08-20",
+  "schema": 1,
+  "sectors": [
+   "Aerospace — UAV & AAM",
+   "Certified aircraft & interiors",
+   "Space, satellites & launch",
+   "Motorsport & automotive",
+   "Medical & radiolucent",
+   "Antennas, radomes & RF",
+   "Sports & leisure",
+   "Industrial & robotics",
+   "Rail, marine & wind"
+  ]
+ },
+ "briefs": [
+  {
+   "date": "2026-08-19",
+   "headline": "Baseline scan — 28 companies screened, 7 in Tier A.",
+   "summary": "First full sweep of European and UK eVTOL, cargo UAV and defence drone makers. Tekever ranks first: AR6 enters production at Swindon by end-2026 using autoclave-cured carbon prepreg, so core selection is live now.",
+   "companies": [
+    "tekever",
+    "vertical-aerospace",
+    "icomat",
+    "destinus",
+    "quantum-systems",
+    "acodyne",
+    "tytan-technologies",
+    "helsing"
+   ],
+   "_file": "2026-08-19-7"
+  },
+  {
+   "date": "2026-08-19",
+   "headline": "Sectors widened beyond drones — motorsport & automotive and rail, marine & wind seeded.",
+   "summary": "Eight seed entries added across two new sectors. The honest headline: motorsport carries real PMI opportunity (Dash-CAE monocoque, Permali as a two-sector channel), while wind and marine are cost-driven markets already owned by PET, balsa and SAN foam — logged mainly so the daily scan can spot the rare high-performance exception. Two entries are competitors rather than customers, and are marked as such.",
+   "companies": [
+    "dash-cae",
+    "permali",
+    "apollo-automobil",
+    "ev-battery-enclosures",
+    "euro-composites",
+    "tabb-interior-systems",
+    "lm-wind-power",
+    "gurit"
+   ],
+   "_file": "2026-08-19-6"
+  },
+  {
+   "date": "2026-08-19",
+   "headline": "Widened from drones to nine markets — space, medical, sports, RF, certified aircraft and industrial added.",
+   "summary": "Thirteen seed entries across six new sectors. The strongest additions are EnduroSat and Aerospacelab in space, where satellite structures are almost entirely sandwich panel and both are scaling production, and SHD Composites as a prepreg channel partner. Medical imaging is included because radiolucent PMI is already the incumbent there — that sector is about defending a position rather than winning one. Three entries are honest sector watches with no company named yet: radomes, hydrogen aircraft and industrial robotics. Orbex is logged as dead after its February 2026 collapse, so nobody works a name that no longer exists.",
+   "companies": [
+    "endurosat",
+    "aerospacelab",
+    "isar-aerospace",
+    "orbex",
+    "siemens-healthineers",
+    "carboncomp",
+    "time-sport",
+    "sports-carbon-wheels",
+    "radome-satcom-sector",
+    "jcb-aero",
+    "shd-composites",
+    "hydrogen-aircraft-sector",
+    "industrial-robotics-sector"
+   ],
+   "_file": "2026-08-19-5"
+  },
+  {
+   "date": "2026-08-19",
+   "headline": "Research mining added — patents, papers and EU-funded projects now scanned alongside the news.",
+   "summary": "New Research signals section. A company that publishes a paper or files a patent naming ROHACELL has already had the material in a lab, which makes it a warmer lead than anything a funding announcement produces. The first sweep found the Clean Aviation third call — twelve EU projects starting in 2026 with published partner lists, including CRYOSTAR on composite cryogenic hydrogen tanks. Ascendance Flight Technologies was surfaced this way rather than through the news. Also logged: Fraunhofer work on thermoplastic sandwich rudders, which is a competitive threat rather than an opportunity, and an independent three-way core comparison paper worth reading before technical meetings.",
+   "companies": [
+    "ascendance-flight-technologies"
+   ],
+   "_file": "2026-08-19-4"
+  },
+  {
+   "date": "2026-08-19",
+   "headline": "Public-use sweep widened to indexed social posts — a Formula SAE team confirmed as a ROHACELL user.",
+   "summary": "Instagram hashtag pages are login-walled and cannot be browsed, but individual posts are indexed by search engines and can be found that way. Doing so turned up Unicamp E-Racing in Brazil, whose Formula SAE car uses ROHACELL in the front wing, rear wing and endplates — confirmed by Evonik’s own release. This corrects the earlier conclusion that no student team could be confirmed. Also found AMT Composites in South Africa, plus Epic Fibers and Composite Envisions selling finished carbon/ROHACELL panels.",
+   "companies": [],
+   "_file": "2026-08-19-3"
+  },
+  {
+   "date": "2026-08-19",
+   "headline": "Research tab filled out — 18 publications, NASA reports, supply news and a stealth paper worth reading.",
+   "summary": "Deep publication sweep across journals, NASA NTRS, patents and Evonik supply announcements. The standout is a 2025 paper on rigid PMI composite foam for electromagnetic dissipation and infrared stealth — it moves PMI from a structural core that happens to be RF-transparent to a functional stealth material, which is directly relevant to the open radome and RF gap. Also logged: a bead-based route to complex-shaped PMI that could change the cost argument, thermo-mechanical failure data useful at Destinus, and both Evonik capacity expansions, which answer the lead-time and single-site objections that usually kill core qualification.",
+   "companies": [],
+   "_file": "2026-08-19-2"
+  },
+  {
+   "date": "2026-08-19",
+   "headline": "Trade shows added — exhibitor lists as a pre-qualified source of targets.",
+   "summary": "New Shows tab covering Advanced Engineering UK (4–5 November 2026, NEC Birmingham), Space Tech Expo Europe (November 2026, Bremen) and JEC World (March 2027, Paris). Advanced Engineering is the near-term one at about eleven weeks out, and several already-tracked companies exhibit there. The daily scan now watches for exhibitor lists as they publish and cross-checks them against the tracked list, adding new names and flagging existing ones as worth meeting.",
+   "companies": [],
+   "_file": "2026-08-19"
+  },
+  {
+   "date": "2026-08-20",
+   "headline": "Trade show calendar rebuilt properly — 12 shows across all nine markets, correcting a thin first attempt.",
+   "summary": "The first version listed only three shows and missed obvious ones, including DroneX at ExCeL London on 29–30 September — six weeks away, in the UK, and squarely in the top market. That was a poor first pass and is now corrected. The calendar covers all nine markets with organiser-confirmed dates where available and honest \"dates to confirm\" flags where not. Near-term order: DroneX (29–30 Sep), Advanced Engineering UK (4–5 Nov, NEC), Space Tech Expo Europe (17–19 Nov, Bremen). JEC World is confirmed for 2–4 March 2027 and AERO Friedrichshafen for 14–17 April 2027. Shows judged low-value — METSTRADE and ISPO — are listed with the reason rather than omitted.",
+   "companies": [],
+   "_file": "2026-08-20"
+  }
+ ],
+ "companies": [
+  {
+   "slug": "tekever",
+   "name": "Tekever",
+   "hq": "Portugal / UK (Swindon)",
+   "segment": "Tactical UAS",
+   "platform": "AR3 / AR5 / AR6 heavy-lift (700 kg MTOW, 200 kg payload)",
+   "stage": "Unicorn (~$1.3B); £400M OVERMATCH industrial expansion",
+   "what": "AR6 heavy-lift UAV — 700 kg max take-off weight, 200 kg payload, roughly 500 km range. AR3 and AR5 already in service.",
+   "where": "Portuguese-owned; the site that matters is <strong>Swindon, Wiltshire</strong> — their fourth and largest UK facility. Also Southampton and Portugal.",
+   "opp": "<strong>The single best opportunity on this list.</strong> AR6 goes into production at Swindon by the end of 2026, so the core material for a brand-new 700 kg airframe is being chosen right now. CompositesWorld confirms autoclave-cured carbon prepreg for wings and fuselage — exactly the process where PMI wins. It sits inside a £400M expansion programme called OVERMATCH, so the volumes are real.",
+   "ask": "<strong>Head of Composites / Materials &amp; Processes</strong> at the Swindon manufacturing hub. Lead with autoclave compatibility and the aerospace qualification data package.",
+   "materials": "Confirmed: autoclave-cured carbon prepreg wings/fuselage, glass for RF-transparent parts, aramid for impact",
+   "confidence": "High",
+   "web": "https://www.tekever.com/",
+   "contacts": [
+    [
+     "Company site",
+     "https://www.tekever.com/"
+    ],
+    [
+     "Swindon facility announcement",
+     "https://www.tekever.com/news/tekever-announces-fourth-uk-facility-in-iconic-swindon-building-expanding-its-uk-footprint/"
+    ]
+   ],
+   "scores": {
+    "structure": 5,
+    "process": 5,
+    "volume": 5,
+    "timing": 5,
+    "access": 4
+   },
+   "total": 24,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "AR6 production launches end-2026 at Swindon hub; partnership with iCOMAT for rate composites",
+     "src": "https://www.compositesworld.com/news/autonomous-heavy-lift-platform-launch-pairs-with-composites-manufacturing-expansion"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "linkedin": "https://www.linkedin.com/company/tekever/",
+   "role_keywords": "composites materials processes"
+  },
+  {
+   "slug": "vertical-aerospace",
+   "name": "Vertical Aerospace",
+   "hq": "UK (Bristol)",
+   "segment": "eVTOL / AAM",
+   "platform": "VX4 / Valo",
+   "stage": "Listed (EVTL); ~$100M raised Aug 2026",
+   "what": "VX4 and the new Valo electric air taxi. Carbon composite airframe, certified aircraft.",
+   "where": "<strong>Bristol, UK.</strong>",
+   "opp": "Valo certification has slipped to 2029 — bad for them, <strong>good for you</strong>. The design and supply chain are still open, and they raised roughly $100M in August 2026 to fund the certification push. Certified programmes buy on traceable allowables and qualification data far more than on unit price, which plays to Rohacell's strength over cheaper foams.",
+   "ask": "<strong>Materials &amp; Processes</strong> or <strong>Structures Engineering</strong>. Lead with the qualification data package and certification support, not price.",
+   "materials": "CFRP primary structure, prepreg/autoclave route typical of EASA/CAA cert airframes",
+   "confidence": "Medium",
+   "web": "https://vertical-aerospace.com/contact/",
+   "contacts": [
+    [
+     "Contact page",
+     "https://vertical-aerospace.com/contact/"
+    ],
+    [
+     "ADS Group listing",
+     "https://www.adsgroup.org.uk/members/vertical-aerospace-group-ltd-1/"
+    ]
+   ],
+   "scores": {
+    "structure": 5,
+    "process": 5,
+    "volume": 3,
+    "timing": 5,
+    "access": 5
+   },
+   "total": 23,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Valo certification pushed to 2029 — design and supply chain still open; fresh cash for cert programme",
+     "src": "https://www.eu-startups.com/2026/08/bristols-electric-air-taxi-developer-vertical-aerospace-secures-e86-6-million-in-financing-commitments/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "linkedin": "https://www.linkedin.com/company/vertical-aerospace",
+   "role_keywords": "materials processes structures"
+  },
+  {
+   "slug": "icomat",
+   "name": "iCOMAT",
+   "hq": "UK (Bristol/Swindon)",
+   "segment": "Tier composites supplier",
+   "platform": "Rapid Tow Shearing structures for Tekever AR6 and others",
+   "stage": "NATO Innovation Fund backed",
+   "what": "Tier composites supplier, not an aircraft maker. Rapid Tow Shearing / steered-fibre structures, including structures for Tekever's AR6.",
+   "where": "<strong>Bristol and Swindon, UK.</strong>",
+   "opp": "A <strong>back-door into several aircraft programmes at once.</strong> Because they supply structures to multiple OEMs, one qualification here carries Rohacell into programmes you never have to sell individually. NATO Innovation Fund backed and scaling alongside Tekever. Lower resistance than an OEM, and they speak your technical language.",
+   "ask": "<strong>Engineering / Materials.</strong> Position it as a core supply partnership for their sandwich structures, not a one-off sale.",
+   "materials": "Advanced fibre placement / steered-tow laminates",
+   "confidence": "High",
+   "web": "https://icomat.co.uk/contact/",
+   "contacts": [
+    [
+     "Contact page",
+     "https://icomat.co.uk/contact/"
+    ],
+    [
+     "LinkedIn",
+     "https://uk.linkedin.com/company/icomat-bristol"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 5,
+    "volume": 4,
+    "timing": 5,
+    "access": 5
+   },
+   "total": 23,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Not an OEM — a route into several OEM programmes at once",
+     "src": "https://www.compositesworld.com/news/autonomous-heavy-lift-platform-launch-pairs-with-composites-manufacturing-expansion"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "linkedin": "https://uk.linkedin.com/company/icomat-bristol",
+   "role_keywords": "engineering materials"
+  },
+  {
+   "slug": "destinus",
+   "name": "Destinus",
+   "hq": "Switzerland / Germany / Spain",
+   "segment": "Tactical UAS / high-speed",
+   "platform": "Long-range strike, jet UAVs, counter-drone (Thales partnership Jul 2026)",
+   "stage": "Seeking €200M at €5B valuation",
+   "what": "Long-range strike drones and high-speed jet UAVs. Partnered with Thales on counter-drone and long-range strike in July 2026.",
+   "where": "<strong>Switzerland</strong> (HQ), with operations in Germany and Spain.",
+   "opp": "<strong>Your strongest technical argument sits here.</strong> High-speed airframes run hot, and elevated service temperature is where PMI beats PET and PVC foam outright rather than competing on price. Reportedly raising €200M at a €5B valuation, so budget is not the constraint. A performance sell, not a cost sell.",
+   "ask": "<strong>Structures</strong> or <strong>Chief Engineer</strong>. Lead with service temperature and high-temperature cure capability.",
+   "materials": "Composite high-speed airframes; hot-structure requirement inferred",
+   "confidence": "Medium",
+   "web": "https://www.destinus.com/contact-us",
+   "contacts": [
+    [
+     "Contact page",
+     "https://www.destinus.com/contact-us"
+    ]
+   ],
+   "scores": {
+    "structure": 5,
+    "process": 5,
+    "volume": 4,
+    "timing": 4,
+    "access": 4
+   },
+   "total": 22,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "High-speed airframes = elevated service temperature, where PMI beats PET/PVC foam outright",
+     "src": "https://thedefensepost.com/2026/07/22/thales-destinus-counter-drone-partnership/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "linkedin": "https://www.linkedin.com/company/destinus1/",
+   "role_keywords": "structures chief engineer"
+  },
+  {
+   "slug": "acodyne",
+   "name": "Acodyne",
+   "hq": "Germany",
+   "segment": "Cargo UAV / heavy-lift eVTOL",
+   "platform": "Jet-speed autonomous cargo aircraft for defence and offshore logistics",
+   "stage": "€2.5M pre-seed (Jun 2026)",
+   "what": "Jet-speed autonomous heavy-lift cargo aircraft for defence and offshore logistics.",
+   "where": "<strong>Germany.</strong>",
+   "opp": "<strong>Cheapest possible design-in.</strong> Only €2.5M pre-seed raised in June 2026, so the design is not frozen and no core material has been chosen. Get in now and you set the baseline every later supplier has to displace. Near-term volume is small, but the relationship costs almost nothing and the upside is a whole aircraft programme.",
+   "ask": "<strong>Founders or Head of Engineering</strong> directly — at this size you will reach them. Offer samples and design-in support, not a quote.",
+   "materials": "Not yet defined",
+   "confidence": "Low",
+   "web": "https://www.acodyne.com/contact",
+   "contacts": [
+    [
+     "Contact page",
+     "https://www.acodyne.com/contact"
+    ],
+    [
+     "About / team",
+     "https://www.acodyne.com/about"
+    ]
+   ],
+   "scores": {
+    "structure": 5,
+    "process": 4,
+    "volume": 2,
+    "timing": 5,
+    "access": 5
+   },
+   "total": 21,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Earliest-stage target on the list — design freeze still ahead, material choice genuinely open",
+     "src": "https://www.eu-startups.com/2026/06/unmanned-cargo-aircraft-developer-acodyne-secures-e2-5-million-for-defence-and-offshore-logistics"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "role_keywords": "founder engineering"
+  },
+  {
+   "slug": "quantum-systems",
+   "name": "Quantum Systems",
+   "hq": "Germany (Gilching)",
+   "segment": "Tactical UAS",
+   "platform": "Vector / Vector AI, Trinity, Reliant",
+   "stage": "$1.2B Series D at $8B valuation (Jul 2026)",
+   "what": "Vector and Vector AI reconnaissance drones, plus Trinity and Reliant. Composite sandwich fixed-wing VTOL airframes.",
+   "where": "<strong>Gilching, near Munich, Germany.</strong>",
+   "opp": "Raised <strong>$1.2 billion at an $8 billion valuation</strong> in July 2026 — the largest European defence-tech round to date — and scaling from hundreds to thousands of airframes a year. A ramp that size is exactly when incumbent suppliers get re-competed on lead time, consistency and capacity. Volume play rather than a technical one.",
+   "ask": "<strong>Supply Chain / Industrialisation</strong> or <strong>Manufacturing Engineering</strong>. Lead with capacity, lead time and batch consistency at rate.",
+   "materials": "Composite sandwich fixed-wing/VTOL airframes; core material not publicly specified",
+   "confidence": "Medium",
+   "web": "https://quantum-systems.com/locations/",
+   "contacts": [
+    [
+     "Locations &amp; contact",
+     "https://quantum-systems.com/locations/"
+    ],
+    [
+     "LinkedIn",
+     "https://www.linkedin.com/company/quantum-systems-gmbh"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 4,
+    "volume": 5,
+    "timing": 4,
+    "access": 4
+   },
+   "total": 21,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Largest European defence-tech round; scaling from hundreds to thousands of airframes/yr",
+     "src": "https://techstartups.com/2026/07/02/german-drone-startup-quantum-systems-raises-1-2b-at-8b-valuation-as-investors-pour-billions-into-ai-defense/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "linkedin": "https://www.linkedin.com/company/quantum-systems-gmbh",
+   "role_keywords": "supply chain industrialisation manufacturing"
+  },
+  {
+   "slug": "tytan-technologies",
+   "name": "TYTAN Technologies",
+   "hq": "Germany (Munich)",
+   "segment": "Interceptor UAS",
+   "platform": "Autonomous interceptor drones",
+   "stage": "€30M Series A + multi-hundred-million-euro German MoD contract (2026)",
+   "what": "Autonomous interceptor drones for air defence.",
+   "where": "<strong>Munich, Germany.</strong>",
+   "opp": "Won a <strong>multi-hundred-million-euro German MoD contract</strong> in 2026 on top of a €30M Series A. A contract that size means the supply chain gets locked over the next few months, so timing is the whole opportunity — get in before their tier-1 composite partner is fixed. Be realistic that interceptors are cost-driven: target specific structures, not the whole airframe.",
+   "ask": "<strong>Procurement</strong> or <strong>Head of Manufacturing</strong>. Move quickly; this window closes.",
+   "materials": "Not disclosed",
+   "confidence": "Low",
+   "web": "https://www.tytan-technologies.com/",
+   "contacts": [
+    [
+     "Company site",
+     "https://www.tytan-technologies.com/"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 3,
+    "volume": 5,
+    "timing": 5,
+    "access": 4
+   },
+   "total": 20,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Contract award means a real production ramp with a fixed timeline",
+     "src": "https://defence-industry.eu/germany-awards-multi-hundred-million-euro-contract-to-tytan-technologies-for-interceptor-drones/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "role_keywords": "procurement manufacturing"
+  },
+  {
+   "slug": "dronamics",
+   "name": "Dronamics",
+   "hq": "Bulgaria",
+   "segment": "Cargo UAV",
+   "platform": "Black Swan (350 kg payload) + MALE variant",
+   "stage": "Japanese strategic backing (2026); EASA cargo drone airline licence",
+   "what": "Black Swan (350 kg payload) + MALE variant",
+   "where": "<strong>Bulgaria</strong>",
+   "opp": "Pivoting toward defence MALE — new structure, new qualification cycle The MALE variant is the opening. Approach as a new-platform design-in rather than a Black Swan retrofit.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Composite airframe",
+   "confidence": "Medium",
+   "web": "https://www.dronamics.com/contact",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://aerospaceglobalnews.com/news/dronomics-black-swan-male-drone/"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 4,
+    "volume": 3,
+    "timing": 4,
+    "access": 4
+   },
+   "total": 19,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Pivoting toward defence MALE — new structure, new qualification cycle",
+     "src": "https://aerospaceglobalnews.com/news/dronomics-black-swan-male-drone/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "role_keywords": "materials structures procurement"
+  },
+  {
+   "slug": "erc-germany",
+   "name": "ERC (Germany)",
+   "hq": "Germany",
+   "segment": "eVTOL",
+   "platform": "New eVTOL demonstrator, now flight testing",
+   "stage": "Early / stealth-ish",
+   "what": "New eVTOL demonstrator, now flight testing",
+   "where": "<strong>Germany</strong>",
+   "opp": "Keeping German eVTOL alive post-Lilium/Volocopter; early flight test means pre-production design Watch closely and make contact early. Ex-Lilium/Volocopter engineers will already know PMI.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Not disclosed",
+   "confidence": "Low",
+   "web": "https://theaircurrent.com/aircraft-development/erc-germany-first-flight-evtol-lilum-volocopter-airbus/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://theaircurrent.com/aircraft-development/erc-germany-first-flight-evtol-lilum-volocopter-airbus/"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 4,
+    "volume": 2,
+    "timing": 5,
+    "access": 4
+   },
+   "total": 19,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Keeping German eVTOL alive post-Lilium/Volocopter; early flight test means pre-production design",
+     "src": "https://theaircurrent.com/aircraft-development/erc-germany-first-flight-evtol-lilum-volocopter-airbus/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "helsing",
+   "name": "Helsing",
+   "hq": "Germany",
+   "segment": "Strike UAS / defence AI",
+   "platform": "HX-2 strike drone, CA-1 Europa (jet UCAV)",
+   "stage": "One of Europe's most valuable defence-tech firms",
+   "what": "CA-1 Europa autonomous combat jet (the target), plus the HX-2 strike drone (not the target).",
+   "where": "<strong>Germany</strong>, with UK and French operations.",
+   "opp": "Aim at <strong>CA-1 Europa, not HX-2</strong>. The HX-2 is an attritable strike drone where cost rules PMI out. Europa is a jet-powered combat aircraft — real sandwich structure, higher temperatures, proper aerospace qualification. Hensoldt ordered the first sensor package in July 2026 and an electronic-attack variant is targeting 2031 service entry, so the structural design is live now.",
+   "ask": "The <strong>CA-1 Europa structures or airframe team</strong> specifically. Do not pitch the whole company.",
+   "materials": "Carbon composite airframes",
+   "confidence": "Medium",
+   "web": "https://helsing.ai/europa",
+   "contacts": [
+    [
+     "CA-1 Europa programme page",
+     "https://helsing.ai/europa"
+    ],
+    [
+     "Newsroom",
+     "https://helsing.ai/newsroom/helsing-unveils-ca-1-europa-an-autonomous-fighter-jet"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 4,
+    "volume": 4,
+    "timing": 4,
+    "access": 3
+   },
+   "total": 19,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "CA-1 Europa autonomous combat jet is a far better structural fit than HX-2; Hensoldt sensor package ordered Jul 2026, EW variant targeting 2031 service entry",
+     "src": "https://helsing.ai/europa"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "role_keywords": "structures airframe"
+  },
+  {
+   "slug": "windracers",
+   "name": "Windracers",
+   "hq": "UK (Southampton/Bristol)",
+   "segment": "Cargo UAV",
+   "platform": "ULTRA fixed-wing autonomous cargo",
+   "stage": "Recognised in UK Government £50M drone scale-up backing (2026)",
+   "what": "ULTRA fixed-wing autonomous cargo",
+   "where": "<strong>UK (Southampton/Bristol)</strong>",
+   "opp": "Named in UK drone industrial strategy; scaling production UK-based and accessible. Good reference-account candidate for a European PMI supply story.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Composite twin-boom airframe",
+   "confidence": "Medium",
+   "web": "https://windracers.com/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://windracers.com/blog/windracers-recognised-in-uk-government-50-million-backing-to-scale-drone-operations/"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 3,
+    "volume": 3,
+    "timing": 4,
+    "access": 5
+   },
+   "total": 19,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Named in UK drone industrial strategy; scaling production",
+     "src": "https://windracers.com/blog/windracers-recognised-in-uk-government-50-million-backing-to-scale-drone-operations/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "linkedin": "https://uk.linkedin.com/company/windracers",
+   "role_keywords": "engineering procurement"
+  },
+  {
+   "slug": "dufour-aerospace",
+   "name": "Dufour Aerospace",
+   "hq": "Switzerland",
+   "segment": "eVTOL / cargo",
+   "platform": "Aero2 (tilt-wing UAV), Aero3",
+   "stage": "VC + Innosuisse grants; growth stage",
+   "what": "Aero2 (tilt-wing UAV), Aero3",
+   "where": "<strong>Switzerland</strong>",
+   "opp": "Tilt-wing structures are sandwich-heavy; Aero2 moving to series production Tilt-wing torsion boxes are a textbook PMI application. Technical sell, engineer-to-engineer.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "CFRP tilt-wing structure",
+   "confidence": "Medium",
+   "web": "https://www.dufour.aero/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://www.dufour.aero/"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 4,
+    "volume": 3,
+    "timing": 3,
+    "access": 4
+   },
+   "total": 18,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Tilt-wing structures are sandwich-heavy; Aero2 moving to series production",
+     "src": "https://www.dufour.aero/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "role_keywords": "structures materials"
+  },
+  {
+   "slug": "fuvex",
+   "name": "FuVeX",
+   "hq": "Spain",
+   "segment": "Dual-use VTOL UAS",
+   "platform": "Fixed-wing VTOL for inspection and defence",
+   "stage": "€3M raise (Aug 2026)",
+   "what": "Fixed-wing VTOL for inspection and defence",
+   "where": "<strong>Spain</strong>",
+   "opp": "Freshest round in scope — scaling dual-use across Europe Early and reachable. Cheap to qualify, and Spain is under-covered by most core suppliers.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Not disclosed",
+   "confidence": "Low",
+   "web": "https://tech.eu/2026/08/05/fuvex-raises-eur3m-to-scale-dual-use-drone-technology-across-europe/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://tech.eu/2026/08/05/fuvex-raises-eur3m-to-scale-dual-use-drone-technology-across-europe/"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 3,
+    "volume": 2,
+    "timing": 5,
+    "access": 5
+   },
+   "total": 18,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Freshest round in scope — scaling dual-use across Europe",
+     "src": "https://tech.eu/2026/08/05/fuvex-raises-eur3m-to-scale-dual-use-drone-technology-across-europe/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "harmattan-ai",
+   "name": "Harmattan AI",
+   "hq": "France",
+   "segment": "Strike UAS",
+   "platform": "Autonomous strike drones",
+   "stage": "$200M Series B at $1.4B valuation; Dassault-backed",
+   "what": "Autonomous strike drones",
+   "where": "<strong>France</strong>",
+   "opp": "Dassault involvement implies aerospace-grade process discipline and traceable material specs Dassault link is the way in — if Rohacell is already on a Dassault spec, leverage that precedent.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Not disclosed",
+   "confidence": "Low",
+   "web": "https://sifted.eu/articles/10-drone-startups-to-watch-2026",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://sifted.eu/articles/10-drone-startups-to-watch-2026"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 4,
+    "volume": 4,
+    "timing": 4,
+    "access": 3
+   },
+   "total": 18,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Dassault involvement implies aerospace-grade process discipline and traceable material specs",
+     "src": "https://sifted.eu/articles/10-drone-startups-to-watch-2026"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "stark-defence",
+   "name": "Stark Defence",
+   "hq": "Germany (Munich/Swindon)",
+   "segment": "Loitering munition",
+   "platform": "Virtus / OWE-V",
+   "stage": "€500M round at €3.2B valuation, led by Sequoia",
+   "what": "Virtus / OWE-V",
+   "where": "<strong>Germany (Munich/Swindon)</strong>",
+   "opp": "Mass-production strike drones; heavily funded, building out UK and German lines Qualify the cost case honestly — attritable munitions rarely justify PMI unless a specific hot or thin-skin section demands it. Target sub-assemblies (wings, control surfaces), not the whole airframe.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Composite airframe; attritable cost model favours cheap cores",
+   "confidence": "Low",
+   "web": "https://stark-defence.com/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://www.mainsights.io/ma-news/german-drone-startup-stark-defence-raises-eur-500m-funding-round-at-eur-3200m-valuation-led-by-sequoia"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 3,
+    "volume": 5,
+    "timing": 4,
+    "access": 3
+   },
+   "total": 18,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Mass-production strike drones; heavily funded, building out UK and German lines",
+     "src": "https://www.mainsights.io/ma-news/german-drone-startup-stark-defence-raises-eur-500m-funding-round-at-eur-3200m-valuation-led-by-sequoia"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "skyeton",
+   "name": "Skyeton",
+   "hq": "Ukraine / Slovakia",
+   "segment": "Tactical UAS",
+   "platform": "Raybird-3",
+   "stage": "Scaling; EU production footprint",
+   "what": "Raybird-3",
+   "where": "<strong>Ukraine / Slovakia</strong>",
+   "opp": "Raybird production established in Slovakia since 2025 — an EU-based composite supply chain already being built out and expanded EU plant is live and scaling, so approach the Slovak entity directly about rate and second-source core supply rather than a greenfield design-in.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Composite airframe",
+   "confidence": "Medium",
+   "web": "https://defence-industry.eu/ukrainian-company-skyeton-launches-production-of-drones-in-slovakia/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://defence-industry.eu/ukrainian-company-skyeton-launches-production-of-drones-in-slovakia/"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 3,
+    "volume": 4,
+    "timing": 3,
+    "access": 3
+   },
+   "total": 17,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Raybird production established in Slovakia since 2025 — an EU-based composite supply chain already being built out and expanded",
+     "src": "https://defence-industry.eu/ukrainian-company-skyeton-launches-production-of-drones-in-slovakia/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "wb-group",
+   "name": "WB Group",
+   "hq": "Poland",
+   "segment": "Tactical UAS / loitering munition",
+   "platform": "FlyEye, Warmate",
+   "stage": "Established prime, expanding under Polish rearmament",
+   "what": "FlyEye, Warmate",
+   "where": "<strong>Poland</strong>",
+   "opp": "Large sustained volumes; Poland is a growth market for European core supply Established supply chain, harder to displace. Target new platform variants rather than in-service programmes.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Composite airframes",
+   "confidence": "Medium",
+   "web": "https://www.wbgroup.pl/en/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://dronehub.ai/blog/top-european-drone-companies"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 3,
+    "volume": 5,
+    "timing": 3,
+    "access": 3
+   },
+   "total": 17,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Large sustained volumes; Poland is a growth market for European core supply",
+     "src": "https://dronehub.ai/blog/top-european-drone-companies"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "buntar-aerospace",
+   "name": "Buntar Aerospace",
+   "hq": "Ukraine",
+   "segment": "Recon UAS",
+   "platform": "Fixed-wing recon UAVs",
+   "stage": "$10.4M growth round (2026)",
+   "what": "Fixed-wing recon UAVs",
+   "where": "<strong>Ukraine</strong>",
+   "opp": "Fast-growing, combat-proven, expanding westward Export-control and logistics friction. Monitor for an EU entity announcement.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Composite airframe",
+   "confidence": "Low",
+   "web": "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 3,
+    "volume": 4,
+    "timing": 4,
+    "access": 2
+   },
+   "total": 16,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Fast-growing, combat-proven, expanding westward",
+     "src": "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "callen-lenz",
+   "name": "Callen-Lenz",
+   "hq": "UK (Salisbury)",
+   "segment": "UAS integrator",
+   "platform": "Custom UAS platforms and autopilots",
+   "stage": "Private, growing on UK MoD work",
+   "what": "Custom UAS platforms and autopilots",
+   "where": "<strong>UK (Salisbury)</strong>",
+   "opp": "Builds bespoke airframes for multiple UK programmes Small but highly accessible and technically literate. Good low-friction first qualification.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Composite airframes",
+   "confidence": "Low",
+   "web": "https://callenlenz.com/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://regionaldevelopment.co.uk/news/unmanned-systems/"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 3,
+    "volume": 2,
+    "timing": 3,
+    "access": 5
+   },
+   "total": 16,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Builds bespoke airframes for multiple UK programmes",
+     "src": "https://regionaldevelopment.co.uk/news/unmanned-systems/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM",
+   "linkedin": "https://www.linkedin.com/company/callen-lenz"
+  },
+  {
+   "slug": "egide",
+   "name": "Egide",
+   "hq": "France",
+   "segment": "Drone interception",
+   "platform": "Air-defence interceptor drones",
+   "stage": "€8M seed (2026)",
+   "what": "Air-defence interceptor drones",
+   "where": "<strong>France</strong>",
+   "opp": "Early-stage French air defence play Too early to qualify, right time to introduce. Low-cost relationship build.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Not disclosed",
+   "confidence": "Low",
+   "web": "https://sifted.eu/articles/10-drone-startups-to-watch-2026",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://sifted.eu/articles/10-drone-startups-to-watch-2026"
+    ]
+   ],
+   "scores": {
+    "structure": 2,
+    "process": 2,
+    "volume": 3,
+    "timing": 5,
+    "access": 4
+   },
+   "total": 16,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Early-stage French air defence play",
+     "src": "https://sifted.eu/articles/10-drone-startups-to-watch-2026"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "volocopter",
+   "name": "Volocopter",
+   "hq": "Germany (Bruchsal)",
+   "segment": "eVTOL",
+   "platform": "VoloCity, VoloRegion, VoloXPro",
+   "stage": "Post-restructuring, new ownership",
+   "what": "VoloCity, VoloRegion, VoloXPro",
+   "where": "<strong>Germany (Bruchsal)</strong>",
+   "opp": "European eVTOL sandbox programme announced for 2026 Restructuring may mean a re-sourced supply chain. Worth a call to check whether incumbent core suppliers survived.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "CFRP structures",
+   "confidence": "Medium",
+   "web": "https://www.volocopter.com/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://www.compositesworld.com/news/volocopter-to-launch-european-evtol-sandbox-program-in-2026-featuring-volocity-voloxpro-"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 4,
+    "volume": 2,
+    "timing": 3,
+    "access": 3
+   },
+   "total": 16,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "European eVTOL sandbox programme announced for 2026",
+     "src": "https://www.compositesworld.com/news/volocopter-to-launch-european-evtol-sandbox-program-in-2026-featuring-volocity-voloxpro-"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "alpine-eagle",
+   "name": "Alpine Eagle",
+   "hq": "Germany (Munich)",
+   "segment": "Counter-UAS",
+   "platform": "Sentinel airborne interceptor",
+   "stage": "European VC backed",
+   "what": "Sentinel airborne interceptor",
+   "where": "<strong>Germany (Munich)</strong>",
+   "opp": "Airborne carrier + effector architecture Watch. Carrier platform could carry sandwich structure if it grows.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Not disclosed",
+   "confidence": "Low",
+   "web": "https://techcrunch.com/2025/03/05/alpine-eagle-secures-funding-from-european-backers-for-counter-drone-tech-amid-rising-threats",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://techcrunch.com/2025/03/05/alpine-eagle-secures-funding-from-european-backers-for-counter-drone-tech-amid-rising-threats"
+    ]
+   ],
+   "scores": {
+    "structure": 2,
+    "process": 2,
+    "volume": 3,
+    "timing": 4,
+    "access": 4
+   },
+   "total": 15,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Airborne carrier + effector architecture",
+     "src": "https://techcrunch.com/2025/03/05/alpine-eagle-secures-funding-from-european-backers-for-counter-drone-tech-amid-rising-threats"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "wingcopter",
+   "name": "Wingcopter",
+   "hq": "Germany (Weiterstadt)",
+   "segment": "Delivery UAV",
+   "platform": "W198 tilt-rotor",
+   "stage": "~$110M raised",
+   "what": "W198 tilt-rotor",
+   "where": "<strong>Germany (Weiterstadt)</strong>",
+   "opp": "Established delivery fleet operator, ongoing production Lower priority — smaller parts, cost-sensitive, probably already core-qualified. Revisit if they announce a larger platform.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Composite tilt-rotor structure, likely infusion/oven-cure",
+   "confidence": "Low",
+   "web": "https://wingcopter.com/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://dronehub.ai/blog/top-european-drone-companies"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 3,
+    "volume": 3,
+    "timing": 2,
+    "access": 4
+   },
+   "total": 15,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Established delivery fleet operator, ongoing production",
+     "src": "https://dronehub.ai/blog/top-european-drone-companies"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "malloy-aeronautics",
+   "name": "Malloy Aeronautics",
+   "hq": "UK (Maidenhead)",
+   "segment": "Heavy-lift UAV",
+   "platform": "T-150 / T-650",
+   "stage": "Anduril-owned; UK MoD and Ukraine supply",
+   "what": "T-150 / T-650",
+   "where": "<strong>UK (Maidenhead)</strong>",
+   "opp": "Named in UK's 120,000-drone Ukraine programme Multirotor frames carry little sandwich content. Low structural fit — deprioritise.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Composite/metallic hybrid frames",
+   "confidence": "Low",
+   "web": "https://ukdefencejournal.org.uk/british-firms-named-in-uk-huge-ukraine-drone-deal/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://ukdefencejournal.org.uk/british-firms-named-in-uk-huge-ukraine-drone-deal/"
+    ]
+   ],
+   "scores": {
+    "structure": 2,
+    "process": 2,
+    "volume": 4,
+    "timing": 3,
+    "access": 3
+   },
+   "total": 14,
+   "tier": "C",
+   "status": "watch",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Named in UK's 120,000-drone Ukraine programme",
+     "src": "https://ukdefencejournal.org.uk/british-firms-named-in-uk-huge-ukraine-drone-deal/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "uforce",
+   "name": "Uforce",
+   "hq": "Ukraine",
+   "segment": "Multi-domain unmanned",
+   "platform": "Air/land/sea unmanned systems",
+   "stage": "$50M growth round (2026)",
+   "what": "Air/land/sea unmanned systems",
+   "where": "<strong>Ukraine</strong>",
+   "opp": "One of the larger Ukrainian rounds of 2026 Monitor only until an EU manufacturing base is confirmed.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Not disclosed",
+   "confidence": "Low",
+   "web": "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 2,
+    "volume": 4,
+    "timing": 3,
+    "access": 2
+   },
+   "total": 14,
+   "tier": "C",
+   "status": "watch",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "One of the larger Ukrainian rounds of 2026",
+     "src": "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "flyingbasket",
+   "name": "FlyingBasket",
+   "hq": "Italy (South Tyrol)",
+   "segment": "Cargo UAV",
+   "platform": "FB3 heavy-lift cargo drone",
+   "stage": "Commercial, EASA-certified operations",
+   "what": "FB3 heavy-lift cargo drone",
+   "where": "<strong>Italy (South Tyrol)</strong>",
+   "opp": "Europe's established heavy-lift cargo drone operator/OEM Low priority. Multirotor architecture, limited sandwich content.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Composite frames",
+   "confidence": "Low",
+   "web": "https://flyingbasket.com/",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://flyingbasket.com/"
+    ]
+   ],
+   "scores": {
+    "structure": 2,
+    "process": 2,
+    "volume": 2,
+    "timing": 2,
+    "access": 4
+   },
+   "total": 12,
+   "tier": "C",
+   "status": "watch",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Europe's established heavy-lift cargo drone operator/OEM",
+     "src": "https://flyingbasket.com/"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "orqa",
+   "name": "Orqa",
+   "hq": "Croatia",
+   "segment": "FPV drones",
+   "platform": "FPV airframes and systems",
+   "stage": "€12.7M Series A",
+   "what": "FPV airframes and systems",
+   "where": "<strong>Croatia</strong>",
+   "opp": "High unit volume, very low unit cost No realistic PMI application. Exclude unless they launch a larger fixed-wing platform.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Injection-moulded / basic composite",
+   "confidence": "Low",
+   "web": "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026"
+    ]
+   ],
+   "scores": {
+    "structure": 1,
+    "process": 1,
+    "volume": 5,
+    "timing": 2,
+    "access": 3
+   },
+   "total": 12,
+   "tier": "C",
+   "status": "watch",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "High unit volume, very low unit cost",
+     "src": "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "kelluu",
+   "name": "Kelluu",
+   "hq": "Finland",
+   "segment": "Autonomous airships",
+   "platform": "ISR airships",
+   "stage": "€15M growth",
+   "what": "ISR airships",
+   "where": "<strong>Finland</strong>",
+   "opp": "Envelope-based structure Out of scope structurally. Keep on the watch list only for gondola/empennage parts.",
+   "ask": "Materials, Structures or Procurement — whoever owns core material selection.",
+   "materials": "Fabric envelope, minimal sandwich",
+   "confidence": "Low",
+   "web": "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026",
+   "contacts": [
+    [
+     "Source / route in",
+     "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026"
+    ]
+   ],
+   "scores": {
+    "structure": 1,
+    "process": 1,
+    "volume": 2,
+    "timing": 3,
+    "access": 4
+   },
+   "total": 11,
+   "tier": "C",
+   "status": "watch",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Baseline",
+     "text": "Envelope-based structure",
+     "src": "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026"
+    }
+   ],
+   "sector": "Aerospace — UAV & AAM"
+  },
+  {
+   "slug": "dash-cae",
+   "name": "Dash-CAE",
+   "hq": "UK (Oxfordshire)",
+   "sector": "Motorsport & automotive",
+   "segment": "Road car structures",
+   "platform": "Low-cost carbon fibre monocoque for road cars",
+   "stage": "Launched 2026, actively seeking OEM customers",
+   "what": "A carbon monocoque designed to bring tub construction within reach of low-volume road car makers.",
+   "where": "<strong>Oxfordshire, UK.</strong>",
+   "opp": "<strong>The strongest new-sector target.</strong> A monocoque launched in 2026 is a design still being optimised, and tub structures are exactly where a high-shear, high-temperature core earns its place. Because they are selling the tub to multiple car makers, qualifying once here puts PMI into every vehicle that adopts it — the same channel logic as iCOMAT in aerospace.",
+   "ask": "<strong>Chief Engineer</strong> or <strong>Head of Composite Design</strong>. Lead with the weight and stiffness case for the tub, and offer design-in support.",
+   "materials": "Carbon fibre monocoque; core specification not disclosed",
+   "confidence": "Low",
+   "web": "https://www.compositesworld.com/news/dash-cae-launches-low-cost-carbon-fiber-monocoque-for-road-cars",
+   "contacts": [
+    [
+     "CompositesWorld coverage",
+     "https://www.compositesworld.com/news/dash-cae-launches-low-cost-carbon-fiber-monocoque-for-road-cars"
+    ]
+   ],
+   "scores": {
+    "structure": 5,
+    "process": 4,
+    "volume": 3,
+    "timing": 5,
+    "access": 4
+   },
+   "total": 21,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Launched a low-cost carbon fibre monocoque aimed at road cars — a new tub design with core selection still open.",
+     "src": "https://www.compositesworld.com/news/dash-cae-launches-low-cost-carbon-fiber-monocoque-for-road-cars"
+    }
+   ],
+   "linkedin": "https://uk.linkedin.com/company/dash-cae",
+   "role_keywords": "chief engineer composite design"
+  },
+  {
+   "slug": "permali",
+   "name": "Permali",
+   "hq": "UK (Gloucester)",
+   "sector": "Motorsport & automotive",
+   "segment": "Tier composites supplier",
+   "platform": "F1 and hypercar composite components; also a rail composites division",
+   "stage": "Established manufacturer, developing tougher low-impact components",
+   "what": "A long-established Gloucester composites house making parts for Formula 1 and hypercar programmes, plus a separate rail business.",
+   "where": "<strong>Gloucester, UK.</strong>",
+   "opp": "A <strong>channel target rather than an end customer</strong>, and unusually valuable because they sit in two of your sectors at once — motorsport and rail. They are actively developing new component formulations, which is the moment a core supplier can get specified. One relationship, two markets.",
+   "ask": "<strong>Technical Director</strong> or <strong>Materials Engineering</strong>. Treat it as a supply partnership across both their motorsport and rail lines.",
+   "materials": "Carbon and glass composite components; core materials not published",
+   "confidence": "Low",
+   "web": "https://www.permali.co.uk/motorsport-composites/",
+   "contacts": [
+    [
+     "Motorsport composites",
+     "https://www.permali.co.uk/motorsport-composites/"
+    ],
+    [
+     "Rail composites",
+     "https://www.permali.co.uk/rail-composites/"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 4,
+    "volume": 3,
+    "timing": 3,
+    "access": 5
+   },
+   "total": 19,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Developing tougher, lower-impact composite components for motorsport; also operates a rail composites division.",
+     "src": "https://www.compositesworld.com/news/permali-develops-tougher-more-eco-friendly-composite-parts-for-motorsport"
+    }
+   ],
+   "role_keywords": "technical director materials"
+  },
+  {
+   "slug": "apollo-automobil",
+   "name": "Apollo Automobil",
+   "hq": "Germany / Italy",
+   "sector": "Motorsport & automotive",
+   "segment": "Hypercar OEM",
+   "platform": "Apollo EVO hypercar — new monocoque entering production",
+   "stage": "Production of the EVO monocoque announced for 2026",
+   "what": "Ultra-low-volume hypercar maker; the EVO is its new model with a freshly tooled carbon monocoque.",
+   "where": "<strong>Germany</strong>, with build and composite work in <strong>Italy</strong>.",
+   "opp": "A brand-new monocoque going into production in 2026 means material decisions are being made now. Volumes are tiny — tens of cars — so this is not a revenue play on its own. Its value is as a <strong>reference and a showcase</strong>: hypercar validation travels well into the rest of the automotive conversation.",
+   "ask": "<strong>Head of Composites</strong> at the monocoque build partner rather than the brand itself — in hypercars the tub is usually subcontracted.",
+   "materials": "Carbon fibre monocoque; core not disclosed",
+   "confidence": "Low",
+   "web": "https://news.dupontregistry.com/blogs/apollo/apollo-production-evo-hypercar-monocoque",
+   "contacts": [
+    [
+     "Production announcement",
+     "https://news.dupontregistry.com/blogs/apollo/apollo-production-evo-hypercar-monocoque"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 4,
+    "volume": 1,
+    "timing": 5,
+    "access": 3
+   },
+   "total": 17,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Announced production of the new EVO hypercar monocoque for 2026.",
+     "src": "https://news.dupontregistry.com/blogs/apollo/apollo-production-evo-hypercar-monocoque"
+    }
+   ]
+  },
+  {
+   "slug": "ev-battery-enclosures",
+   "name": "Composite EV battery enclosures",
+   "hq": "Europe-wide",
+   "sector": "Motorsport & automotive",
+   "segment": "Sector trend, not one company",
+   "platform": "Structural composite battery enclosures replacing aluminium",
+   "stage": "Multiple programmes moving to production 2026",
+   "what": "The industry-wide shift from aluminium to composite battery boxes, tracked here as a theme until specific programmes are identified.",
+   "where": "<strong>Europe-wide</strong> — German and Nordic tier-1s most active.",
+   "opp": "Large flat sandwich panels in high volume look ideal on paper. Be sceptical: most production programmes are going <strong>thermoplastic and compression-moulded</strong>, where PMI's cure-temperature advantage is irrelevant and cost rules. Realistic entry is premium or performance EVs using prepreg, not mass-market. Logged so the daily scan can flag any prepreg-route programme.",
+   "ask": "No single contact — the agent will name specific tier-1s as programmes surface.",
+   "materials": "Predominantly thermoplastic composite; unfavourable to PMI on both process and cost",
+   "confidence": "Medium",
+   "web": "https://www.compositesworld.com/articles/advancing-the-thermoplastic-composite-battery-enclosure-into-production",
+   "contacts": [
+    [
+     "CompositesWorld — enclosures into production",
+     "https://www.compositesworld.com/articles/advancing-the-thermoplastic-composite-battery-enclosure-into-production"
+    ],
+    [
+     "CompositesWorld — enclosure innovations",
+     "https://www.compositesworld.com/news/on-the-radar-innovations-in-composite-battery-enclosures"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 1,
+    "volume": 5,
+    "timing": 3,
+    "access": 2
+   },
+   "total": 14,
+   "tier": "C",
+   "status": "watch",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Composite battery enclosures moving into production across Europe, but predominantly via thermoplastic routes that do not suit PMI.",
+     "src": "https://www.compositesworld.com/articles/advancing-the-thermoplastic-composite-battery-enclosure-into-production"
+    }
+   ]
+  },
+  {
+   "slug": "euro-composites",
+   "name": "Euro-Composites",
+   "hq": "Luxembourg",
+   "sector": "Rail, marine & wind",
+   "segment": "Core supplier / converter",
+   "platform": "Honeycomb cores and finished sandwich parts for rail",
+   "stage": "Established, major European rail supplier",
+   "what": "One of Europe's larger honeycomb core producers, also supplying finished rail sandwich components.",
+   "where": "<strong>Echternach, Luxembourg.</strong>",
+   "opp": "<strong>Read this as a competitor, not a customer.</strong> They sell honeycomb into precisely the rail sandwich applications PMI would target. Tracked so you can see where honeycomb is winning rail work and why — useful intelligence for positioning, and occasionally they buy in foam core for parts honeycomb suits badly.",
+   "ask": "Commercial contact only if pursuing a converter relationship. Otherwise treat as competitive monitoring.",
+   "materials": "Aramid and aluminium honeycomb — the incumbent PMI displaces or loses to",
+   "confidence": "High",
+   "web": "https://www.euro-composites.com/en/portfolio/rail/",
+   "contacts": [
+    [
+     "Rail portfolio",
+     "https://www.euro-composites.com/en/portfolio/rail/"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 2,
+    "volume": 4,
+    "timing": 1,
+    "access": 2
+   },
+   "total": 12,
+   "tier": "C",
+   "status": "watch",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Established European honeycomb supplier to rail — the incumbent core technology in this sector.",
+     "src": "https://www.euro-composites.com/en/portfolio/rail/"
+    }
+   ]
+  },
+  {
+   "slug": "tabb-interior-systems",
+   "name": "TABB Interior Systems",
+   "hq": "Europe",
+   "sector": "Rail, marine & wind",
+   "segment": "Rail interiors",
+   "platform": "High-performance railway interior systems",
+   "stage": "Established supplier",
+   "what": "Railway interior panels, linings and systems.",
+   "where": "<strong>Europe</strong> — confirm exact site before travelling.",
+   "opp": "Rail interiors are a genuine sandwich market, but the binding constraint is <strong>fire, smoke and toxicity certification to EN 45545</strong>, not mechanical performance. Do not approach until you can put the relevant FST data for the grade in front of them — without it the conversation ends in one meeting.",
+   "ask": "<strong>Technical or Materials Engineering</strong>. Lead with EN 45545 fire certification evidence, not weight saving.",
+   "materials": "Composite interior panels; core type not published",
+   "confidence": "Low",
+   "web": "https://tabbinteriors.com/high-performance-railway-interiors/",
+   "contacts": [
+    [
+     "Company site",
+     "https://tabbinteriors.com/high-performance-railway-interiors/"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 2,
+    "volume": 3,
+    "timing": 2,
+    "access": 4
+   },
+   "total": 14,
+   "tier": "C",
+   "status": "watch",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Supplies high-performance railway interior systems across Europe.",
+     "src": "https://tabbinteriors.com/high-performance-railway-interiors/"
+    }
+   ]
+  },
+  {
+   "slug": "lm-wind-power",
+   "name": "LM Wind Power",
+   "hq": "Denmark",
+   "sector": "Rail, marine & wind",
+   "segment": "Wind turbine blades",
+   "platform": "Large wind turbine blades",
+   "stage": "Established, part of GE Vernova",
+   "what": "One of the world's largest independent wind blade manufacturers.",
+   "where": "<strong>Kolding, Denmark</strong>, with plants across Europe.",
+   "opp": "Included for completeness, and the honest read is <strong>poor fit</strong>. Blade cores are PET foam and balsa chosen almost entirely on cost per cubic metre, at volumes where PMI is an order of magnitude too expensive. The realistic opening is not the blade shell but small high-load inserts and root fittings. Do not build a plan around this one.",
+   "ask": "Not worth a cold approach on blade shells. Revisit only if a high-performance or tidal programme appears.",
+   "materials": "PET foam and balsa incumbent, selected on cost",
+   "confidence": "High",
+   "web": "https://www.lmwindpower.com/",
+   "contacts": [
+    [
+     "Company site",
+     "https://www.lmwindpower.com/"
+    ],
+    [
+     "CompositesWorld — core for wind",
+     "https://www.compositesworld.com/articles/core-for-composites-winds-of-change"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 1,
+    "volume": 5,
+    "timing": 1,
+    "access": 2
+   },
+   "total": 13,
+   "tier": "C",
+   "status": "watch",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Major European blade maker; sector is committed to PET foam and balsa on cost grounds.",
+     "src": "https://www.compositesworld.com/articles/core-for-composites-winds-of-change"
+    }
+   ]
+  },
+  {
+   "slug": "gurit",
+   "name": "Gurit",
+   "hq": "Switzerland",
+   "sector": "Rail, marine & wind",
+   "segment": "Core supplier",
+   "platform": "Corecell M structural foam for marine, plus wind and industrial core",
+   "stage": "Established, listed",
+   "what": "A direct competitor in structural core, strongest in marine with the Corecell M SAN foam range.",
+   "where": "<strong>Switzerland</strong>, with global manufacturing.",
+   "opp": "<strong>Competitor, tracked deliberately.</strong> Gurit owns much of the European marine core market with SAN foam, which beats PMI on price and toughness for hulls. Knowing where they are winning tells you which marine conversations are worth having — realistically only high-performance racing yachts and lightweight fast ferries where stiffness per kilo justifies the premium.",
+   "ask": "Competitive monitoring, not a sales target.",
+   "materials": "SAN structural foam — the incumbent PMI competes against in marine",
+   "confidence": "High",
+   "web": "https://www.gurit.com/corecell-m/",
+   "contacts": [
+    [
+     "Corecell M product page",
+     "https://www.gurit.com/corecell-m/"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 2,
+    "volume": 4,
+    "timing": 1,
+    "access": 1
+   },
+   "total": 11,
+   "tier": "C",
+   "status": "watch",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Dominant marine structural core supplier via the Corecell M SAN foam range.",
+     "src": "https://www.gurit.com/corecell-m/"
+    }
+   ]
+  },
+  {
+   "slug": "endurosat",
+   "name": "EnduroSat",
+   "hq": "Bulgaria (Sofia)",
+   "sector": "Space, satellites & launch",
+   "segment": "Smallsat manufacturer",
+   "platform": "Gen3 ESPA-class Endurance satellites",
+   "stage": "$104M raised, plus €43M to scale Gen3 production",
+   "what": "Modular small satellites, moving from one-off builds to series production.",
+   "where": "<strong>Sofia, Bulgaria</strong>, with a lab and office in Luxembourg.",
+   "opp": "<strong>The strongest space target.</strong> Satellite structures are almost entirely sandwich panels, and PMI is long established in this application. More importantly they are scaling a <strong>new generation</strong> of satellite into series production with fresh capital behind it — a new structural design plus a production ramp is the exact moment core gets specified.",
+   "ask": "<strong>Head of Structures</strong> or <strong>Manufacturing Engineering</strong>. Lead with panel flatness, machinability and outgassing data for space.",
+   "materials": "Composite sandwich satellite panels; specific core not published",
+   "confidence": "Medium",
+   "web": "https://www.endurosat.com/",
+   "contacts": [
+    [
+     "Company site",
+     "https://www.endurosat.com/"
+    ],
+    [
+     "Gen3 production funding",
+     "https://www.endurosat.com/news/endurosat-secures-43m-to-accelerate-espa-satellite-manufacturing/"
+    ]
+   ],
+   "scores": {
+    "structure": 5,
+    "process": 4,
+    "volume": 4,
+    "timing": 5,
+    "access": 4
+   },
+   "total": 22,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Raised $104M plus €43M specifically to scale Gen3 ESPA-class satellite production.",
+     "src": "https://www.endurosat.com/news/endurosat-secures-43m-to-accelerate-espa-satellite-manufacturing/"
+    }
+   ],
+   "role_keywords": "structures manufacturing engineering"
+  },
+  {
+   "slug": "aerospacelab",
+   "name": "Aerospacelab",
+   "hq": "Belgium (Louvain-la-Neuve)",
+   "sector": "Space, satellites & launch",
+   "segment": "Smallsat manufacturer",
+   "platform": "Satellite platforms; megafactory for volume production",
+   "stage": "$110M Series B to ramp manufacturing",
+   "what": "Vertically integrated satellite manufacturer building toward high-rate production.",
+   "where": "<strong>Louvain-la-Neuve, Belgium.</strong>",
+   "opp": "Building a satellite <strong>megafactory</strong>, which is a rate-production story rather than a one-off design-in. Sandwich panel volume at that scale is worth having, and a factory being stood up is the point at which supply agreements get written rather than inherited.",
+   "ask": "<strong>Supply Chain</strong> or <strong>Head of Structures</strong>. Lead with rate capability and consistency.",
+   "materials": "Composite sandwich satellite structures; core not published",
+   "confidence": "Medium",
+   "web": "https://www.aerospacelab.com/",
+   "contacts": [
+    [
+     "Company site",
+     "https://www.aerospacelab.com/"
+    ],
+    [
+     "Series B coverage",
+     "https://www.satellitetoday.com/manufacturing/2025/08/26/aerospacelab-closes-110m-series-b-round-to-ramp-up-satellite-manufacturing/"
+    ]
+   ],
+   "scores": {
+    "structure": 5,
+    "process": 4,
+    "volume": 4,
+    "timing": 4,
+    "access": 4
+   },
+   "total": 21,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Closed a $110M Series B to ramp up satellite manufacturing toward megafactory volumes.",
+     "src": "https://www.satellitetoday.com/manufacturing/2025/08/26/aerospacelab-closes-110m-series-b-round-to-ramp-up-satellite-manufacturing/"
+    }
+   ],
+   "role_keywords": "supply chain structures"
+  },
+  {
+   "slug": "isar-aerospace",
+   "name": "Isar Aerospace",
+   "hq": "Germany (Ottobrunn, near Munich)",
+   "sector": "Space, satellites & launch",
+   "segment": "Launch vehicle",
+   "platform": "Spectrum small launch vehicle",
+   "stage": "€270M Series D (2026); Europe's best-funded launch startup",
+   "what": "Two-stage small launch vehicle, working toward first orbital flight from European soil.",
+   "where": "<strong>Ottobrunn, near Munich, Germany.</strong>",
+   "opp": "Europe's best-funded launcher, with €270M raised in 2026 and a production ramp ahead of it. The relevant structure is the <strong>payload fairing</strong> and secondary structures. Be aware honeycomb is the usual incumbent in fairings, so this is a displacement argument rather than an open door — lead with damage tolerance and moisture ingress rather than raw weight.",
+   "ask": "<strong>Head of Structures</strong>. Expect to argue against honeycomb, not against nothing.",
+   "materials": "Composite launcher structures; fairing core not published, honeycomb likely incumbent",
+   "confidence": "Low",
+   "web": "https://www.isaraerospace.com/",
+   "contacts": [
+    [
+     "Company site",
+     "https://www.isaraerospace.com/"
+    ],
+    [
+     "Series D coverage",
+     "https://europeanspaceflight.com/isar-aerospace-announces-new-launch-date-alongside-series-d-funding/"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 5,
+    "volume": 3,
+    "timing": 4,
+    "access": 3
+   },
+   "total": 19,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Raised €270M Series D and announced a new launch date for Spectrum.",
+     "src": "https://europeanspaceflight.com/isar-aerospace-announces-new-launch-date-alongside-series-d-funding/"
+    }
+   ],
+   "role_keywords": "structures"
+  },
+  {
+   "slug": "orbex",
+   "name": "Orbex",
+   "hq": "UK (Forres, Scotland)",
+   "sector": "Space, satellites & launch",
+   "segment": "Launch vehicle",
+   "platform": "Prime small launch vehicle",
+   "stage": "Collapsed February 2026",
+   "what": "Scottish small launch vehicle developer.",
+   "where": "<strong>Forres, Scotland.</strong>",
+   "opp": "<strong>Dead — logged so nobody wastes a trip.</strong> Orbex collapsed in February 2026. UK domestic launch capability continues through other routes, so the sector is still worth watching, but this specific company is not a prospect. Kept on the list because a name that disappears quietly is exactly the kind of thing a stale target list gets wrong.",
+   "ask": "None. Do not approach.",
+   "materials": "Not applicable",
+   "confidence": "High",
+   "web": "https://www.nasaspaceflight.com/2026/02/orbex-collapse-progress-uk-domestic-capability/",
+   "contacts": [
+    [
+     "Collapse coverage",
+     "https://www.nasaspaceflight.com/2026/02/orbex-collapse-progress-uk-domestic-capability/"
+    ]
+   ],
+   "scores": {
+    "structure": 1,
+    "process": 1,
+    "volume": 1,
+    "timing": 1,
+    "access": 1
+   },
+   "total": 5,
+   "tier": "C",
+   "status": "dead",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Company collapsed in February 2026; UK domestic launch capability continuing via other routes.",
+     "src": "https://www.nasaspaceflight.com/2026/02/orbex-collapse-progress-uk-domestic-capability/"
+    }
+   ]
+  },
+  {
+   "slug": "siemens-healthineers",
+   "name": "Siemens Healthineers",
+   "hq": "Germany (Erlangen)",
+   "sector": "Medical & radiolucent",
+   "segment": "Medical imaging OEM",
+   "platform": "CT, MRI and X-ray systems — patient tables, couch tops, covers",
+   "stage": "Established global OEM",
+   "what": "One of the two dominant European medical imaging manufacturers.",
+   "where": "<strong>Erlangen, Germany</strong>, with imaging plants across Germany.",
+   "opp": "Medical imaging is arguably <strong>PMI's strongest incumbent position of any market</strong> — radiolucency is a genuine material property advantage, not a marginal one, and Evonik already markets ROHACELL specifically for medical devices. The work here is defending and extending an existing position rather than winning a new one. Route in is usually via the tier suppliers who actually build the couch tops.",
+   "ask": "<strong>Materials Engineering</strong> at the imaging division, and separately the tier-1 who builds their patient tables.",
+   "materials": "Radiolucent carbon and foam sandwich patient tables — PMI is the established core technology",
+   "confidence": "High",
+   "web": "https://www.siemens-healthineers.com/medical-imaging",
+   "contacts": [
+    [
+     "Medical imaging division",
+     "https://www.siemens-healthineers.com/medical-imaging"
+    ],
+    [
+     "Evonik ROHACELL for medical devices",
+     "https://www.evonik.com/en/markets/market_1345345/rohacell-for-medical-devices.html"
+    ]
+   ],
+   "scores": {
+    "structure": 5,
+    "process": 4,
+    "volume": 4,
+    "timing": 2,
+    "access": 3
+   },
+   "total": 18,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Established imaging OEM; radiolucent PMI core is the incumbent technology in patient tables and couch tops.",
+     "src": "https://performance-foams.evonik.com/en/markets/medical-technology"
+    }
+   ],
+   "role_keywords": "materials engineering imaging"
+  },
+  {
+   "slug": "carboncomp",
+   "name": "Carboncomp",
+   "hq": "Hungary",
+   "sector": "Medical & radiolucent",
+   "segment": "Tier composites supplier",
+   "platform": "Carbon composite covers and structures, including Siemens Healthineers MRI covers",
+   "stage": "Established supplier",
+   "what": "Composite manufacturer supplying medical imaging OEMs.",
+   "where": "<strong>Hungary.</strong>",
+   "opp": "A <strong>tier supplier already inside the medical imaging chain</strong> — they build MRI covers for Siemens Healthineers. Easier to reach than the OEM and they make the actual parts, which is where core is specified. Central Europe is also less contested by core suppliers than Germany or the UK.",
+   "ask": "<strong>Technical or Production Engineering.</strong> Lead with radiolucency and machinability.",
+   "materials": "Carbon composite medical enclosures; core not published",
+   "confidence": "Low",
+   "web": "https://carboncomp.hu/en/references/siemens-healthineers-mri-cover/",
+   "contacts": [
+    [
+     "Siemens Healthineers MRI cover reference",
+     "https://carboncomp.hu/en/references/siemens-healthineers-mri-cover/"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 3,
+    "volume": 3,
+    "timing": 3,
+    "access": 5
+   },
+   "total": 18,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Builds MRI covers for Siemens Healthineers — an existing tier supplier in the medical imaging chain.",
+     "src": "https://carboncomp.hu/en/references/siemens-healthineers-mri-cover/"
+    }
+   ],
+   "role_keywords": "technical production engineering"
+  },
+  {
+   "slug": "time-sport",
+   "name": "TIME Sport",
+   "hq": "France (Saint-Bonnet-de-Mure)",
+   "sector": "Sports & leisure",
+   "segment": "Bicycle manufacturer",
+   "platform": "Carbon road and mountain bike frames; also manufacturing frames for other brands",
+   "stage": "Opened a new European carbon frame factory",
+   "what": "French carbon bicycle frame maker, now also producing frames for other brands.",
+   "where": "<strong>Saint-Bonnet-de-Mure, near Lyon, France.</strong>",
+   "opp": "<strong>Reshoring is the story.</strong> They have opened a European carbon frame factory and are already building for a second brand, which makes them a contract manufacturer rather than only a brand. Frame and rim structures use foam core in specific areas, and ROHACELL has a long history in high-end cycling. A European factory scaling up is a real opening.",
+   "ask": "<strong>Production or Composite Engineering.</strong> Lead with the established cycling pedigree and consistency at rate.",
+   "materials": "Carbon frame construction; core use varies by design",
+   "confidence": "Low",
+   "web": "https://www.timesport.fr/",
+   "contacts": [
+    [
+     "Company site",
+     "https://www.timesport.fr/"
+    ],
+    [
+     "Factory opening coverage",
+     "https://en.brujulabike.com/more-carbon-frames-manufactured-in-europe-time-opens-its-factory-and-is-already-producing-a-mountain-bike-for-another-brand/"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 4,
+    "volume": 3,
+    "timing": 4,
+    "access": 4
+   },
+   "total": 18,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Opened a European carbon frame factory and is already producing a mountain bike for another brand.",
+     "src": "https://en.brujulabike.com/more-carbon-frames-manufactured-in-europe-time-opens-its-factory-and-is-already-producing-a-mountain-bike-for-another-brand/"
+    }
+   ],
+   "role_keywords": "production composite engineering"
+  },
+  {
+   "slug": "sports-carbon-wheels",
+   "name": "European carbon wheel and ski makers",
+   "hq": "Europe-wide",
+   "sector": "Sports & leisure",
+   "segment": "Sector watch",
+   "platform": "Carbon rims, skis, snowboards, rackets, rowing shells, helmets",
+   "stage": "Fragmented; many small brands, several reshoring",
+   "what": "The broader sports and leisure equipment market, tracked as a theme until specific programmes surface.",
+   "where": "<strong>Europe-wide</strong> — cycling clusters in France, Italy and Germany; ski manufacture in Austria and Bavaria.",
+   "opp": "Evonik already markets ROHACELL to sports and leisure, so the technical case is proven and the reference material exists. The difficulty is that this market is <strong>fragmented into many small brands</strong>, each buying modest volumes, and much production sits in Asia. Best approached opportunistically when a brand announces European manufacturing. Logged so the daily scan flags those announcements.",
+   "ask": "No single contact. The scan will name specific brands as European manufacturing announcements appear.",
+   "materials": "Foam core used in rims, ski cores and racket structures; PMI established in high-end applications",
+   "confidence": "High",
+   "web": "https://www.rohacell.com/en/markets/sports-leisure",
+   "contacts": [
+    [
+     "Evonik ROHACELL sports and leisure",
+     "https://www.rohacell.com/en/markets/sports-leisure"
+    ],
+    [
+     "Evonik sports foam overview",
+     "https://performance-foams.evonik.com/en/markets/sports-and-lifestyle"
+    ]
+   ],
+   "scores": {
+    "structure": 3,
+    "process": 3,
+    "volume": 3,
+    "timing": 3,
+    "access": 4
+   },
+   "total": 16,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Sector logged as a theme; PMI is established in high-end sports equipment but the market is fragmented and largely Asian-manufactured.",
+     "src": "https://www.rohacell.com/en/markets/sports-leisure"
+    }
+   ]
+  },
+  {
+   "slug": "radome-satcom-sector",
+   "name": "Radome and satcom antenna structures",
+   "hq": "Europe-wide",
+   "sector": "Antennas, radomes & RF",
+   "segment": "Sector watch",
+   "platform": "Ground station radomes, flat-panel satcom antennas, radar covers",
+   "stage": "Growth driven by satellite constellations and defence radar",
+   "what": "RF-transparent sandwich structures for radomes and antennas, tracked as a theme.",
+   "where": "<strong>Europe-wide</strong> — no dominant European specialist identified in this first pass.",
+   "opp": "<strong>Technically one of the best fits on the whole list</strong>: radomes need low, stable dielectric constant and low loss tangent, which is exactly where PMI performs and where cheap foams do not. The honest gap is that this first sweep found the established radome specialists to be largely Australian and American. The daily scan will hunt specifically for European radome and antenna manufacturers, and for defence radar programmes that need them.",
+   "ask": "To be identified. Priority for the daily scan.",
+   "materials": "RF-transparent sandwich; dielectric performance is the deciding property",
+   "confidence": "High",
+   "web": "https://compositeradomes.com/radomes/",
+   "contacts": [
+    [
+     "Composite radome applications overview",
+     "https://compositeradomes.com/radomes/"
+    ],
+    [
+     "Composite sandwich ground station radomes",
+     "https://satsearch.co/products/av-comm-space-and-defence-composite-sandwich-radomes"
+    ]
+   ],
+   "scores": {
+    "structure": 5,
+    "process": 4,
+    "volume": 3,
+    "timing": 3,
+    "access": 2
+   },
+   "total": 17,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Sector opened. Technically an excellent PMI fit on dielectric performance, but no European specialist identified yet — flagged as a priority for the daily scan.",
+     "src": "https://compositeradomes.com/radomes/"
+    }
+   ]
+  },
+  {
+   "slug": "jcb-aero",
+   "name": "JCB Aero",
+   "hq": "France (Auch)",
+   "sector": "Certified aircraft & interiors",
+   "segment": "Aircraft interiors",
+   "platform": "Cabin interiors, flooring panels and monuments for commercial and business aviation",
+   "stage": "Established; developing new flooring panels with SHD prepreg",
+   "what": "French aircraft interiors specialist for commercial and business aviation.",
+   "where": "<strong>Auch, south-west France.</strong>",
+   "opp": "<strong>Actively developing new panel constructions</strong> with SHD's FRVC411 prepreg, which is precisely the moment a core supplier can get written into a specification. Cabin interiors are a genuine sandwich market. As with rail, the gating requirement is fire, smoke and toxicity performance to aviation standards — bring that data or do not bother.",
+   "ask": "<strong>Materials & Processes</strong> or <strong>R&D</strong>. Lead with FST certification data, then weight.",
+   "materials": "Prepreg sandwich flooring and interior panels; core type not published",
+   "confidence": "Medium",
+   "web": "https://jcbaero.com/business-activities/commercial-aviation/",
+   "contacts": [
+    [
+     "Commercial aviation activities",
+     "https://jcbaero.com/business-activities/commercial-aviation/"
+    ],
+    [
+     "New flooring panel development",
+     "https://www.compositesworld.com/news/jcb-aero-aircraft-interior-flooring-panels-incorporate-shd-composites"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 4,
+    "volume": 3,
+    "timing": 4,
+    "access": 4
+   },
+   "total": 19,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Developing aircraft interior flooring panels incorporating SHD Group's FRVC411 prepreg.",
+     "src": "https://www.compositesworld.com/news/jcb-aero-aircraft-interior-flooring-panels-incorporate-shd-composites"
+    }
+   ],
+   "linkedin": "https://www.linkedin.com/company/jcb-aero/",
+   "role_keywords": "materials processes R&D"
+  },
+  {
+   "slug": "shd-composites",
+   "name": "SHD Composites",
+   "hq": "UK (Sleaford, Lincolnshire)",
+   "sector": "Certified aircraft & interiors",
+   "segment": "Prepreg supplier",
+   "platform": "FRVC411 and other high-performance prepregs used in aerospace interiors and motorsport",
+   "stage": "Established UK prepreg manufacturer",
+   "what": "UK prepreg manufacturer supplying aerospace interiors, motorsport and marine.",
+   "where": "<strong>Sleaford, Lincolnshire, UK.</strong>",
+   "opp": "A <strong>channel target</strong>, like iCOMAT and Permali. Their prepreg goes into JCB Aero's interior panels and into motorsport structures, so they sit next to the core decision on multiple programmes. Prepreg suppliers and core suppliers are natural partners rather than competitors — a joint material recommendation carries more weight than either alone.",
+   "ask": "<strong>Technical Sales</strong> or <strong>R&D</strong>. Propose joint qualification work rather than a supply enquiry.",
+   "materials": "High-performance prepregs; pairs with a structural core in sandwich constructions",
+   "confidence": "High",
+   "web": "https://shdcomposites.com/",
+   "contacts": [
+    [
+     "Company site",
+     "https://shdcomposites.com/"
+    ],
+    [
+     "JCB Aero collaboration",
+     "https://shdcomposites.com/news/2024/05/07/jcb-aero-develop-aircraft-interior-flooring-panels-with-high-performance-frvc411-prepreg"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 5,
+    "volume": 3,
+    "timing": 4,
+    "access": 5
+   },
+   "total": 21,
+   "tier": "A",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Supplies FRVC411 prepreg into JCB Aero's aircraft interior flooring panels; sits alongside the core decision on multiple programmes.",
+     "src": "https://shdcomposites.com/news/2024/05/07/jcb-aero-develop-aircraft-interior-flooring-panels-with-high-performance-frvc411-prepreg"
+    }
+   ],
+   "linkedin": "https://www.linkedin.com/company/shdcompositematerialsltd",
+   "role_keywords": "technical sales research"
+  },
+  {
+   "slug": "hydrogen-aircraft-sector",
+   "name": "Hydrogen and electric aircraft programmes",
+   "hq": "Europe-wide",
+   "sector": "Certified aircraft & interiors",
+   "segment": "Sector watch",
+   "platform": "Airbus ZEROe and other hydrogen and electric propulsion programmes",
+   "stage": "Multiple programmes advancing toward certification milestones",
+   "what": "New-propulsion aircraft programmes, tracked as a theme.",
+   "where": "<strong>Europe-wide</strong> — Airbus in France and Germany, plus several smaller programmes.",
+   "opp": "New propulsion means <strong>new airframes, and new airframes mean new material selection</strong>. The caution: several of these programmes are going thermoplastic for crashworthy fuselage and tail structures, where PMI does not compete. The opportunity is in the parts that stay thermoset — control surfaces, fairings, secondary structure. Logged so the scan can flag certification milestones that lock material choices.",
+   "ask": "Programme-specific. The scan will name individual programmes as milestones are announced.",
+   "materials": "Mixed; thermoplastic favoured for primary crashworthy structure, thermoset elsewhere",
+   "confidence": "Medium",
+   "web": "https://www.compositesworld.com/news/on-the-radar-hydrogen-propulsion-programs-advance-toward-certification-milestones",
+   "contacts": [
+    [
+     "Hydrogen propulsion certification milestones",
+     "https://www.compositesworld.com/news/on-the-radar-hydrogen-propulsion-programs-advance-toward-certification-milestones"
+    ],
+    [
+     "Crashworthy H2 structures using thermoplastics",
+     "https://www.compositesworld.com/news/crashworthy-fuselage-tail-designs-for-h2-aircraft-using-thermoplastic-composites"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 3,
+    "volume": 4,
+    "timing": 4,
+    "access": 2
+   },
+   "total": 17,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Multiple hydrogen propulsion programmes advancing toward certification milestones across Europe.",
+     "src": "https://www.compositesworld.com/news/on-the-radar-hydrogen-propulsion-programs-advance-toward-certification-milestones"
+    }
+   ]
+  },
+  {
+   "slug": "industrial-robotics-sector",
+   "name": "Lightweight robotics and machine structures",
+   "hq": "Europe-wide",
+   "sector": "Industrial & robotics",
+   "segment": "Sector watch",
+   "platform": "Robot arms, CNC gantries, pick-and-place heads, high-speed moving machine parts",
+   "stage": "Active research area; limited European commercial adoption identified so far",
+   "what": "High-speed moving machine structures where reduced inertia pays for itself.",
+   "where": "<strong>Europe-wide</strong> — German and Italian machine builders most likely.",
+   "opp": "The engineering case is sound: on a fast-moving arm or gantry, <strong>every kilogram removed compounds</strong> into faster cycles, smaller motors and lower energy use, which justifies a premium core in a way that static structures never do. The honest caveat is that this first sweep found mostly academic work rather than European companies in production. Real but unproven — the daily scan will look for machine builders announcing composite structures.",
+   "ask": "To be identified. Target machine builders and automation integrators, not robot brands.",
+   "materials": "Carbon composite arms and gantries; core use varies, much of the published work is thermoplastic",
+   "confidence": "Low",
+   "web": "https://www.compositesworld.com/topics/core",
+   "contacts": [
+    [
+     "Core materials overview",
+     "https://www.compositesworld.com/topics/core"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 3,
+    "volume": 3,
+    "timing": 3,
+    "access": 3
+   },
+   "total": 16,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Sector seed",
+     "text": "Sector opened. Strong engineering case from reduced inertia, but little European production adoption identified yet.",
+     "src": "https://www.compositesworld.com/topics/core"
+    }
+   ]
+  },
+  {
+   "slug": "ascendance-flight-technologies",
+   "name": "Ascendance Flight Technologies",
+   "hq": "France (Toulouse)",
+   "sector": "Certified aircraft & interiors",
+   "segment": "Hybrid-electric aircraft",
+   "platform": "ATEA hybrid-electric VTOL aircraft; leads the EU LIME project",
+   "stage": "EU Clean Aviation project lead (2026)",
+   "what": "Hybrid-electric aircraft developer, and lead partner on the EU-funded LIME energy storage project.",
+   "where": "<strong>Toulouse, France.</strong>",
+   "opp": "Surfaced by the research sweep rather than the news sweep, which is the point of doing both. Leading an EU Clean Aviation project means <strong>public funding, published partners and a live development programme</strong> — and an aircraft still in development has an open structure. The LIME project itself is about energy storage rather than structure, so lead with the ATEA airframe, not the project.",
+   "ask": "<strong>Head of Structures</strong> or <strong>Materials &amp; Processes</strong>. Reference the Clean Aviation work as the way in, then talk about the airframe.",
+   "materials": "Composite hybrid-electric airframe; core not published",
+   "confidence": "Low",
+   "web": "https://www.ascendance.aero/",
+   "contacts": [
+    [
+     "Company site",
+     "https://www.ascendance.aero/"
+    ],
+    [
+     "Clean Aviation project announcement",
+     "https://www.compositesworld.com/news/clean-aviation-third-call-selects-12-projects-starting-in-2026-delivers-945-million-total-funding"
+    ]
+   ],
+   "scores": {
+    "structure": 4,
+    "process": 4,
+    "volume": 2,
+    "timing": 5,
+    "access": 4
+   },
+   "total": 19,
+   "tier": "B",
+   "status": "new",
+   "events": [
+    {
+     "date": "2026-08-19",
+     "kind": "Research signal",
+     "text": "Leads the EU Clean Aviation LIME project starting 2026 — a funded, publicly documented development programme with an airframe still open.",
+     "src": "https://www.compositesworld.com/news/clean-aviation-third-call-selects-12-projects-starting-in-2026-delivers-945-million-total-funding"
+    }
+   ],
+   "role_keywords": "structures materials"
+  }
+ ],
+ "research": [
+  {
+   "date": "2026-07",
+   "kind": "EU project",
+   "title": "Clean Aviation third call — 12 projects, €945M, starting 2026",
+   "org": "Clean Aviation Joint Undertaking",
+   "country": "EU-wide",
+   "summary": "Twelve new EU-funded aviation projects begin in 2026. CRYOSTAR (Università della Campania Luigi Vanvitelli) covers composite cryogenic liquid hydrogen tank structures and certification. LIME is led by Ascendance Flight Technologies. Consortium partners are published for each project.",
+   "why": "EU consortia publish their full partner lists, which is a free map of who is doing funded composite structural work and with whom. CRYOSTAR is the one to read closely — cryogenic tank structures are a sandwich problem and the material selection is not yet frozen.",
+   "src": "https://www.compositesworld.com/news/clean-aviation-third-call-selects-12-projects-starting-in-2026-delivers-945-million-total-funding",
+   "slug": "ascendance-flight-technologies"
+  },
+  {
+   "date": "2026",
+   "kind": "Research institute",
+   "title": "IFW realises complex composite sandwich structures with automated fibre placement",
+   "org": "IFW (Institut für Fertigungstechnik und Werkzeugmaschinen)",
+   "country": "Germany (Hannover)",
+   "summary": "Institute work on producing geometrically complex sandwich structures using automated fibre placement over core.",
+   "why": "Directly relevant. AFP over core is exactly the production route that makes PMI attractive at rate — it needs a core that holds tolerance and survives the process. Worth approaching as a technical collaboration rather than a sale.",
+   "src": "https://www.compositesworld.com/news/ifw-realizes-complex-composite-sandwich-structures-with-afp",
+   "slug": null
+  },
+  {
+   "date": "2026",
+   "kind": "Research institute",
+   "title": "Thermoplastic sandwich structures for sustainable aircraft rudders",
+   "org": "Fraunhofer IMWS",
+   "country": "Germany (Halle)",
+   "summary": "Fraunhofer work on thermoplastic sandwich construction for aircraft rudders.",
+   "why": "Read as a competitive warning rather than an opportunity. If thermoplastic sandwich becomes the default for control surfaces, PMI is designed out of a market it currently serves. Worth understanding the argument before a customer puts it to you.",
+   "src": "https://www.imws.fraunhofer.de/en/kompetenzfelder/kunststoffe/highlights/rudder-aircraft-construction-thermoplastic-sandwich.html",
+   "slug": null
+  },
+  {
+   "date": "2025",
+   "kind": "Paper",
+   "title": "Comparative analysis of sandwich composites with balsa, ROHACELL and Nomex cores for aerospace applications",
+   "org": "Published in PMC",
+   "country": "—",
+   "summary": "Head-to-head mechanical comparison of balsa, ROHACELL and Nomex honeycomb cores in aerospace sandwich construction.",
+   "why": "Useful ammunition. A published, independent three-way comparison against the two incumbents you actually meet in the field is worth having read before a technical meeting — including knowing where it does not favour you.",
+   "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901560/",
+   "slug": null
+  },
+  {
+   "date": "Historical",
+   "kind": "Patent",
+   "title": "US6107976 — Hybrid core sandwich radome",
+   "org": "—",
+   "country": "US",
+   "summary": "Patent covering a radome built from a hybrid core sandwich construction.",
+   "why": "Relevant to the open radome gap. Radome patents show how core is specified for dielectric rather than mechanical reasons, which is the argument PMI wins on. Old, so it is background reading rather than a lead.",
+   "src": "https://patents.google.com/patent/US6107976A/en",
+   "slug": "radome-satcom-sector"
+  },
+  {
+   "date": "Historical",
+   "kind": "Patent",
+   "title": "CN104369387B — PMI foam sandwiched carbon fibre engineering truck boom",
+   "org": "—",
+   "country": "CN",
+   "summary": "PMI foam core in a carbon fibre composite boom for engineering vehicles.",
+   "why": "Evidence that PMI already works in heavy moving machine structures, which supports the industrial and robotics case. Useful precedent to cite when that market is sceptical.",
+   "src": "https://patents.google.com/patent/CN104369387B/en",
+   "slug": "industrial-robotics-sector"
+  },
+  {
+   "date": "2025",
+   "kind": "Paper",
+   "title": "Rigid polymethacrylimide composite foam for electromagnetic dissipation and infrared stealth",
+   "org": "Published in Composites Part B (ScienceDirect)",
+   "country": "—",
+   "summary": "PMI foam engineered as a composite for electromagnetic wave dissipation and infrared signature reduction.",
+   "why": "<strong>Potentially the most strategically interesting paper on this page.</strong> It moves PMI from being a structural core that happens to be RF-transparent to being a functional material for stealth and EM management. If that route matures it opens defence radome and signature-management work, which is exactly the gap you have in the Antennas and RF market. Worth reading in full before any defence conversation.",
+   "src": "https://www.sciencedirect.com/science/article/abs/pii/S138589472500943X",
+   "slug": "radome-satcom-sector"
+  },
+  {
+   "date": "2024",
+   "kind": "Paper",
+   "title": "Lightweight, high-performance PMI foams for complex shapes from highly foamable precursor beads",
+   "org": "Industrial & Engineering Chemistry Research (ACS)",
+   "country": "—",
+   "summary": "A bead-based foaming route that produces PMI in complex shapes rather than only in flat blocks and sheets.",
+   "why": "Process research that matters commercially. Machining complex cores from block is slow and wasteful; a route to near-net shapes changes the cost argument in exactly the applications where PMI currently loses on price. Watch whether it reaches production.",
+   "src": "https://pubs.acs.org/doi/10.1021/acs.iecr.4c01389",
+   "slug": null
+  },
+  {
+   "date": "2024",
+   "kind": "Paper",
+   "title": "Compressive behaviour and failure mechanism of PMI foam under thermo-mechanical coupling",
+   "org": "Published in PMC",
+   "country": "—",
+   "summary": "How PMI foam fails when temperature and mechanical load act together, with the underlying failure mechanisms identified.",
+   "why": "Directly useful ammunition for the high-temperature argument you lead with at Destinus and other high-speed programmes. Independent data beats a datasheet in a technical meeting.",
+   "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11085132/",
+   "slug": "destinus"
+  },
+  {
+   "date": "Historical",
+   "kind": "Paper",
+   "title": "Compressive deformation of ROHACELL foams: effects of strain rate and temperature",
+   "org": "International Journal of Impact Engineering",
+   "country": "—",
+   "summary": "Strain-rate and temperature dependence of ROHACELL under compression.",
+   "why": "The reference most often cited when someone asks how the material behaves under impact rather than static load. Worth having to hand for sports, automotive and any crash-relevant conversation.",
+   "src": "https://www.sciencedirect.com/science/article/abs/pii/S0734743X12001534",
+   "slug": null
+  },
+  {
+   "date": "Historical",
+   "kind": "Paper",
+   "title": "Characterisation of the shear and compression failure envelope of ROHACELL foam",
+   "org": "Polymer Testing",
+   "country": "—",
+   "summary": "Combined shear and compression failure envelope for ROHACELL.",
+   "why": "Sandwich cores fail under combined loading, not pure compression. This is the data a structures engineer actually wants, and citing it signals you understand their problem rather than your product.",
+   "src": "https://www.sciencedirect.com/science/article/abs/pii/S0142941803000618",
+   "slug": null
+  },
+  {
+   "date": "Historical",
+   "kind": "Paper",
+   "title": "The mechanical response of ROHACELL foams at different length scales",
+   "org": "ResearchGate",
+   "country": "—",
+   "summary": "Behaviour of the foam from cell wall level up to bulk material.",
+   "why": "Background reading. Useful when a customer asks why density and grade choice change behaviour so much.",
+   "src": "https://www.researchgate.net/publication/225731044_The_mechanical_response_of_Rohacell_foams_at_different_length_scales",
+   "slug": null
+  },
+  {
+   "date": "Historical",
+   "kind": "Paper",
+   "title": "ROHACELL foam for space applications",
+   "org": "ResearchGate",
+   "country": "—",
+   "summary": "Assessment of ROHACELL specifically for spacecraft structures.",
+   "why": "Supporting material for the space market, where outgassing and thermal cycling are the questions that decide whether a core is allowed near a satellite.",
+   "src": "https://www.researchgate.net/publication/289314262_RohacellR_foam_for_space_applications",
+   "slug": "endurosat"
+  },
+  {
+   "date": "Historical",
+   "kind": "Research institute",
+   "title": "NASA NTRS — Impact foam testing for Multi-Mission Earth Entry Vehicle applications",
+   "org": "NASA Technical Reports Server",
+   "country": "US",
+   "summary": "NASA impact testing of foam materials for an Earth entry vehicle.",
+   "why": "NASA NTRS is free, deep and fully searchable, and space agencies publish what industry keeps quiet. Worth mining as a standing source rather than a one-off.",
+   "src": "https://ntrs.nasa.gov/citations/20140000146",
+   "slug": null
+  },
+  {
+   "date": "Historical",
+   "kind": "Research institute",
+   "title": "NASA — Structural performance of a compressively loaded foam-core hat-stiffened composite panel",
+   "org": "NASA Langley Research Center",
+   "country": "US",
+   "summary": "Test data on a foam-cored stiffened composite panel under compression.",
+   "why": "A rare published example of foam core used in a stiffened primary structure rather than a secondary panel. Useful precedent when an aerospace engineer assumes foam is only for lightly loaded parts.",
+   "src": "https://ntrs.nasa.gov/api/citations/19960020468/downloads/19960020468.pdf",
+   "slug": null
+  },
+  {
+   "date": "2026",
+   "kind": "Supply news",
+   "title": "Evonik expands ROHACELL production capacity in the US",
+   "org": "Evonik",
+   "country": "US",
+   "summary": "Capacity expansion for ROHACELL foams at the US site.",
+   "why": "<strong>Commercially useful on a sales call.</strong> Lead time and security of supply are the two objections that kill core qualification, and a documented capacity expansion answers both. Know the numbers before someone asks whether you can supply at rate.",
+   "src": "https://corporate.evonik.us/en/evonik-expands-production-capacity-for-rohacell-foams-in-the-us-120188.html",
+   "slug": null
+  },
+  {
+   "date": "Historical",
+   "kind": "Supply news",
+   "title": "New German facility doubles ROHACELL production capacity",
+   "org": "Evonik",
+   "country": "Germany",
+   "summary": "German plant investment doubling ROHACELL output.",
+   "why": "The European half of the same supply-security argument. Pair it with the US expansion when a customer worries about single-site risk.",
+   "src": "https://www.k-online.com/en/Media_News/News/Evonik%E2%80%99s_new_German_facility_doubles_Rohacell_production_capacity",
+   "slug": null
+  },
+  {
+   "date": "2026",
+   "kind": "Market report",
+   "title": "PMI foam for aerospace — market size and forecast studies",
+   "org": "Multiple analyst houses",
+   "country": "Global",
+   "summary": "Commercial market sizing and forecasts for PMI foam in aerospace through the early 2030s.",
+   "why": "Treat with caution — these reports are sold, not peer-reviewed, and the numbers vary wildly between houses. Useful only for the direction of travel and for internal business cases, never as evidence in a technical discussion.",
+   "src": "https://www.globalgrowthinsights.com/market-reports/polymethacrylimide-pmi-foam-for-aerospace-market-115322",
+   "slug": null
+  }
+ ],
+ "users": [
+  {
+   "name": "Pronat Industries",
+   "country": "Israel",
+   "kind": "Converter",
+   "what": "Machines and supplies ROHACELL wing parts for UAVs and other airframe applications, listed as a catalogue product alongside Nomex honeycomb.",
+   "why": "<strong>The most useful entry here.</strong> A converter that already machines ROHACELL into UAV wing parts is proof the processing route works at part level, and they are a potential partner for customers who want finished cores rather than sheet. They also stock Nomex honeycomb, so they will tell you honestly where each wins.",
+   "src": "https://pronatindustries.com/product/rohacell-evonik/",
+   "linkedin": "https://www.linkedin.com/company/pronat-industries-ltd.",
+   "conf": "Medium",
+   "slug": null
+  },
+  {
+   "name": "Amber Composites",
+   "country": "UK",
+   "kind": "Distributor",
+   "what": "Appointed UK distributor for ROHACELL core materials.",
+   "why": "UK channel. Worth knowing who already moves the product in your own market, both to avoid crossing lines and because their customer list is the real map of UK users.",
+   "src": "https://www.materialstoday.com/composite-industry/news/amber-composites-uk-distributor-for-rohacell-core/",
+   "linkedin": null,
+   "conf": "Medium",
+   "slug": null
+  },
+  {
+   "name": "Emkay Plastics",
+   "country": "UK",
+   "kind": "Distributor",
+   "what": "Global distributor of performance foams with a dedicated ROHACELL line and technical explainers.",
+   "why": "Active UK channel publishing its own ROHACELL technical content, which means they are selling it rather than just listing it.",
+   "src": "https://emkayplastics.co.uk/rohacell",
+   "linkedin": null,
+   "conf": "Medium",
+   "slug": null
+  },
+  {
+   "name": "Easy Composites",
+   "country": "UK (Stoke-on-Trent)",
+   "kind": "Stockist",
+   "what": "Stocks ROHACELL 31 IG-F and 71 IG-F in sheet form for prototyping and small-series work.",
+   "why": "Low-volume and prototype channel. Useful to know because engineers who trial ROHACELL from a stockist at prototype stage are the ones who specify it later at production volume — worth asking who is buying small quantities.",
+   "src": "https://www.easycomposites.co.uk/Rohacell31-IG-F-PMI-Foam",
+   "linkedin": null,
+   "conf": "Medium",
+   "slug": null
+  },
+  {
+   "name": "South Coast Composites",
+   "country": "UK",
+   "kind": "Converter / stockist",
+   "what": "Publishes technical material on ROHACELL HERO core and supplies it.",
+   "why": "Another UK route to market, and their HERO content suggests they are selling the higher-performance grades rather than only the entry grades.",
+   "src": "https://sccomposites.co.uk/advantages-of-rohacell-hero-core-foam-a-pmi-polymethacrylimide-foam-made-by-evonik-industries-in-germany/",
+   "linkedin": null,
+   "conf": "Medium",
+   "slug": null
+  },
+  {
+   "name": "Chem-Craft",
+   "country": "International",
+   "kind": "Distributor",
+   "what": "Publishes ROHACELL and ROHACRYL case studies across aerospace, automotive and wind.",
+   "why": "Their case-study library is the closest thing to a public reference list. Worth reading before a technical meeting — the applications they describe are ones already proven in service.",
+   "src": "https://chem-craft.com/blog/case-studies-exceptional-projects-utilizing-rohacell-and-rohacryl/",
+   "linkedin": null,
+   "conf": "Medium",
+   "slug": null
+  },
+  {
+   "name": "Avari Additive Manufacturing",
+   "country": "—",
+   "kind": "Panel maker",
+   "what": "Sells finished ROHACELL-core carbon fibre sandwich panels as a stock product.",
+   "why": "Evidence of a finished-panel market: customers who want the sandwich, not the ingredients. A model worth understanding if any of your prospects would rather buy a panel than laminate one.",
+   "src": "https://www.avariadditive.com/product-page/rohacell-core-cf-sandwich-panel-210g-2x2-twill-6-x-6-cosmetic-grade",
+   "linkedin": null,
+   "conf": "Medium",
+   "slug": null
+  },
+  {
+   "name": "Bauer Hockey",
+   "country": "Canada / US",
+   "kind": "End product",
+   "conf": "High",
+   "slug": null,
+   "what": "Uses ROHACELL as the structural core in ice hockey stick blades. Evonik names them directly and describes the PMI foam as the core in the lower part of the stick.",
+   "why": "<strong>Your cleanest consumer reference.</strong> The world’s largest producer of ice hockey sticks, named publicly, with the application described. Use it when a prospect doubts PMI survives real-world impact loading — a hockey blade takes worse abuse than most aerospace parts.",
+   "src": "https://www.materialstoday.com/composite-industry/news/bauer-ice-hockey-sticks-employ-rohacell-core/",
+   "linkedin": null
+  },
+  {
+   "name": "CarbonSports / Lightweight",
+   "country": "Germany (Friedrichshafen)",
+   "kind": "End product",
+   "conf": "High",
+   "slug": null,
+   "what": "Makes Lightweight-brand carbon racing wheel rims using a ROHACELL core, and has done since 2005. Rims come in under 1,000 grams.",
+   "why": "<strong>A twenty-year reference in a brutally weight-obsessed market</strong>, and it is European. Two useful arguments come out of it: longevity of the material choice, and that professional cycling picked PMI over cheaper cores when grams genuinely decide races.",
+   "src": "https://products.evonik.com/assets/34/67/product_story_earning_the_yellow_jersey_made_easy_EN_EN_243467.pdf",
+   "linkedin": null
+  },
+  {
+   "name": "Dronamics",
+   "country": "Bulgaria",
+   "kind": "End product",
+   "conf": "High",
+   "slug": "dronamics",
+   "what": "Uses ROHACELL in several key components of the Black Swan cargo drone. Their co-founder and CTO is quoted on structural integrity, durability and high-temperature performance.",
+   "why": "<strong>The most commercially useful entry on this page.</strong> Dronamics is already tracked as a prospect — and they are not a prospect at all, they are an existing user. Change the approach accordingly: this is an expansion conversation about the new MALE variant, not a first qualification. A named CTO quote is also the strongest possible reference for other UAV makers.",
+   "src": "https://performance-foams.evonik.com/en/products-and-solutions/rohacell/rohacell-foam-and-the-black-swan-179353.html",
+   "linkedin": "https://www.dronamics.com/contact"
+  },
+  {
+   "name": "SB Acoustics",
+   "country": "Denmark / Indonesia",
+   "kind": "End product",
+   "conf": "Medium",
+   "slug": null,
+   "what": "Satori-range loudspeaker drivers built with carbon and ROHACELL sandwich cones. Widely discussed and sold through specialist audio retailers.",
+   "why": "Audio is a market that barely appears in composite trade press but buys real volume. A cone is a thin, stiff, low-mass sandwich — exactly PMI territory. Worth understanding as a proof point, and as a hint that other driver manufacturers are candidates.",
+   "src": "https://techtalk.parts-express.com/forum/tech-talk-forum/67135-carbon-rohacell-drivers-from-sb-acoustics-more",
+   "linkedin": null
+  },
+  {
+   "name": "Clarasonic",
+   "country": "Thailand",
+   "kind": "End product",
+   "conf": "Medium",
+   "slug": null,
+   "what": "Listed under ROHACELL in the Loudspeaker Industry Sourcebook as a speaker component manufacturer.",
+   "why": "Second independent signal that PMI has an established position in loudspeaker cones. Outside your territory, but it corroborates the audio application rather than resting on one forum thread.",
+   "src": "https://www.loudspeakerindustrysourcebook.com/uploads/curriculum-vitae/clarasonic-28thailand29-co-ltd-8317.pdf",
+   "linkedin": null
+  },
+  {
+   "name": "Smartphone speaker membranes",
+   "country": "Global",
+   "kind": "Application",
+   "conf": "Medium",
+   "slug": null,
+   "what": "Ultra-thin ROHACELL grades developed for smartphone speaker membranes.",
+   "why": "Logged as an application rather than a company, because the handset makers do not name their suppliers. Useful mainly as evidence of how thin the material can be processed, which surprises people who only know it as a 10mm aerospace core.",
+   "src": "https://innovationintextiles.com/ultrathin-rohacell-for-smartphone-speakers/",
+   "linkedin": null
+  },
+  {
+   "name": "Unicamp E-Racing / FSAE Unicamp",
+   "country": "Brazil (Campinas)",
+   "kind": "End product",
+   "conf": "High",
+   "slug": null,
+   "what": "Formula SAE team of roughly 100 students. ROHACELL PMI is the core in the aerodynamic package of their E2021 car — front wing, rear wing and endplates. Confirmed by Evonik and posted by the team on Instagram.",
+   "why": "<strong>This corrects an earlier gap.</strong> The first sweep found no Formula Student team using ROHACELL and concluded student teams were an untapped opportunity. They are not — at least one is a confirmed user, and Evonik supported it publicly. Student teams are cheap to support, they publish everything they build, and the engineers graduate into exactly the companies on your target list. Treat this as a template worth repeating with European teams.",
+   "src": "https://central-south-america.evonik.com/pt/espuma-estrutural-da-evonik-esta-presente-em-carro-autonomo-desenvolvido-pela-unicamp-e-racing-161827.html",
+   "linkedin": "https://www.instagram.com/fsaeunicamp/"
+  },
+  {
+   "name": "AMT Composites",
+   "country": "South Africa",
+   "kind": "Distributor",
+   "conf": "Medium",
+   "slug": null,
+   "what": "Distributor posting publicly about supplying ROHACELL IG-F as a structural foam core.",
+   "why": "Channel outside Europe, found via an indexed Instagram post rather than any trade source — a good illustration that social posts surface distributors who never appear in the composites press.",
+   "src": "https://www.instagram.com/p/C3uCovzseEO/",
+   "linkedin": null
+  },
+  {
+   "name": "Epic Fibers",
+   "country": "—",
+   "kind": "Panel maker",
+   "conf": "Medium",
+   "slug": null,
+   "what": "Sells carbon fibre / ROHACELL PMI sandwich panels as a standard product line alongside honeycomb and PVC cored panels.",
+   "why": "Another finished-panel supplier. Useful for prospects who would rather buy a panel than laminate one, and their honeycomb-versus-PMI product range tells you how they position the two against each other.",
+   "src": "https://www.epicfibers.com/en/products/carbon-rohacell-pmi-sandwich-panels",
+   "linkedin": null
+  },
+  {
+   "name": "Composite Envisions (CST Sales)",
+   "country": "US",
+   "kind": "Panel maker",
+   "conf": "Medium",
+   "slug": null,
+   "what": "Stocks carbon fibre ROHACELL sandwich panels.",
+   "why": "US finished-panel channel. Same pattern as Epic Fibers — evidence that a ready-made PMI panel market exists and is worth understanding before a prospect asks whether they can just buy the sandwich.",
+   "src": "https://www.cstsales.com/a-carbon-fiber-sandwich-panels.html",
+   "linkedin": null
+  }
+ ],
+ "users_note": "This list is <strong>anyone publicly on record</strong> using, converting, stocking or distributing ROHACELL, in any industry and any country &mdash; end products first, then converters and channel, with the strongest evidence at the top.<br><br><strong>How these are found:</strong> trade press, Evonik&rsquo;s own customer stories, distributor listings, technical forums, and <strong>indexed social posts</strong>. Instagram hashtag pages cannot be browsed directly &mdash; they are behind a login &mdash; but individual posts do get indexed by search engines, and that is how the Unicamp Formula SAE team and AMT Composites were found. The daily scan searches that way deliberately.<br><br><strong>Standing caveat:</strong> OEMs almost never name their core supplier, and F1 teams disclose nothing at all about materials. Absence from this list is weak evidence of absence.",
+ "shows": [
+  {
+   "name": "DroneX Trade Show & Conference",
+   "date": "2026-09-29",
+   "when": "29–30 September 2026",
+   "where": "ExCeL London, UK",
+   "markets": "Aerospace — UAV & AAM",
+   "confirmed": "Confirmed",
+   "what": "The UK's largest dedicated drone event, covering commercial and defence unmanned systems.",
+   "why": "<strong>The nearest show and the one this list should have had from the start.</strong> Six weeks away, in London, and it is squarely your top market. UK UAV makers and their suppliers in one hall — and the sort of event where the smaller airframe builders actually turn up rather than sending a brochure.",
+   "todo": "Get the exhibitor list now and cross-check it against the tracked UAV companies. Six weeks is enough to book meetings properly.",
+   "src": "https://dronexpo.co.uk/",
+   "exlist": "https://www.excel.london/whats-on/dronex-tradeshow-conference-2026"
+  },
+  {
+   "name": "InnoTrans",
+   "date": "2026-09-22",
+   "when": "September 2026 — confirm exact dates",
+   "where": "Messe Berlin, Germany",
+   "markets": "Rail, marine & wind",
+   "confirmed": "Dates to confirm",
+   "what": "The world’s largest rail technology trade fair, including interiors and vehicle structures.",
+   "why": "Only worth going if you are serious about rail, and remember the gate there is EN 45545 fire certification rather than mechanical performance. Turning up without FST data wastes the trip. Listed for completeness, not recommended as a priority.",
+   "todo": "Skip unless the rail FST data package is ready. If it is, this is the one rail show that matters.",
+   "src": "https://www.innotrans.de/",
+   "exlist": "https://www.innotrans.de/"
+  },
+  {
+   "name": "Advanced Engineering UK",
+   "date": "2026-11-04",
+   "when": "4–5 November 2026",
+   "where": "NEC Birmingham, UK",
+   "markets": "All markets — composites focus",
+   "confirmed": "Confirmed",
+   "what": "The UK's largest advanced manufacturing show, with a composites zone and the co-located Advanced Materials Show.",
+   "why": "Broad but genuinely useful: UK composite fabricators, tier suppliers and airframe makers together. Several tracked companies exhibit — Dash-CAE, Permali, SHD and Callen-Lenz territory — so it is four trips collapsed into two days.",
+   "todo": "Cross-check the exhibitor list against the tracked list when it publishes. Book meetings before the show, not on the day.",
+   "src": "https://www.advancedengineeringuk.com/",
+   "exlist": "https://www.advancedengineeringuk.com/"
+  },
+  {
+   "name": "Space Tech Expo Europe",
+   "date": "2026-11-17",
+   "when": "17–19 November 2026",
+   "where": "Messe Bremen, Germany",
+   "markets": "Space, satellites & launch",
+   "confirmed": "Confirmed",
+   "what": "Europe's largest business-to-business space event — satellite primes, smallsat makers, launchers and supply chain.",
+   "why": "<strong>Highest-value show for your strongest new market.</strong> Satellite structures are almost entirely sandwich panel, and this puts the whole European supply chain in one place. EnduroSat and Aerospacelab territory. Two weeks after Advanced Engineering, so plan both together.",
+   "todo": "Prioritise smallsat manufacturers and structure suppliers over the primes — the primes already have locked supply chains.",
+   "src": "https://www.spacetechexpo-europe.com/",
+   "exlist": "https://www.expolista.com/tradeshows/space-tech-expo-europe/2026"
+  },
+  {
+   "name": "METSTRADE",
+   "date": "2026-11-17",
+   "when": "November 2026 — confirm exact dates",
+   "where": "RAI Amsterdam, Netherlands",
+   "markets": "Rail, marine & wind",
+   "confirmed": "Dates to confirm",
+   "what": "The largest marine equipment trade show in the world.",
+   "why": "Low priority and worth being honest about why: Gurit’s SAN foam owns the marine core market on price and toughness. Only useful if you are specifically chasing high-performance racing yachts or lightweight fast ferries, where stiffness per kilo justifies the premium.",
+   "todo": "Skip unless a specific high-performance marine lead has already emerged.",
+   "src": "https://www.metstrade.com/",
+   "exlist": "https://www.metstrade.com/"
+  },
+  {
+   "name": "JEC World",
+   "date": "2027-03-02",
+   "when": "2–4 March 2027",
+   "where": "Paris Nord Villepinte, France",
+   "markets": "All markets — the composites show",
+   "confirmed": "Confirmed",
+   "what": "The leading international composites show. Every core supplier, prepregger, fabricator and OEM materials team attends.",
+   "why": "<strong>The densest gathering of your market anywhere.</strong> Also where every competitor will be — Gurit, Diab, Armacell, the honeycomb makers — which makes it as valuable for positioning intelligence as for leads. Long lead time, so plan it properly rather than turning up.",
+   "todo": "Build the target list over the winter from tracked companies, then book meetings early. The good slots go months ahead.",
+   "src": "https://www.jec-world.events/",
+   "exlist": "https://www.jeccomposites.com/events/jec-world-2027/"
+  },
+  {
+   "name": "AERO Friedrichshafen",
+   "date": "2027-04-14",
+   "when": "14–17 April 2027",
+   "where": "Friedrichshafen, Germany",
+   "markets": "Certified aircraft & interiors",
+   "confirmed": "Confirmed",
+   "what": "The global general aviation trade show — light aircraft, gliders, electric and hydrogen propulsion.",
+   "why": "Good fit for the certified aircraft and interiors market, and gliders and light airframes are a traditional PMI application. Smaller manufacturers who are reachable, rather than primes who are not.",
+   "todo": "Worth a scouting visit before committing to a stand. Look for electric and hydrogen light aircraft programmes still in design.",
+   "src": "https://www.aero-expo.com/",
+   "exlist": "https://www.aero-expo.com/"
+  },
+  {
+   "name": "Eurosatory",
+   "date": "2028-06-01",
+   "when": "June, biennial — next edition to confirm",
+   "where": "Paris Nord Villepinte, France",
+   "markets": "Aerospace — UAV & AAM (defence)",
+   "confirmed": "Dates to confirm",
+   "what": "One of the largest land and airland defence exhibitions in the world.",
+   "why": "Defence UAS and loitering munition makers in volume. Worth tracking given how much of your top market is now defence-funded, but confirm the next edition before planning.",
+   "todo": "Confirm the next edition date. Cross-check against the defence UAS companies tracked.",
+   "src": "https://www.eurosatory.com/",
+   "exlist": "https://www.eurosatory.com/"
+  },
+  {
+   "name": "DSEI London",
+   "date": "2027-09-01",
+   "when": "September, biennial — next edition 2027",
+   "where": "ExCeL London, UK",
+   "markets": "Aerospace — UAV & AAM (defence)",
+   "confirmed": "Dates to confirm",
+   "what": "The UK’s largest defence and security exhibition.",
+   "why": "UK defence procurement in one place, and the UK is spending heavily on drones. Biennial, so the next edition is 2027 — long lead time but worth diarising.",
+   "todo": "Confirm dates when the organiser publishes. Lower priority than DroneX for reaching airframe builders directly.",
+   "src": "https://www.dsei.co.uk/",
+   "exlist": "https://www.dsei.co.uk/"
+  },
+  {
+   "name": "ISPO Munich",
+   "date": "2026-11-29",
+   "when": "Late November 2026 — confirm exact dates",
+   "where": "Messe München, Germany",
+   "markets": "Sports & leisure",
+   "confirmed": "Dates to confirm",
+   "what": "The leading international sports business trade show — ski, outdoor, cycling, equipment brands.",
+   "why": "The sports market is fragmented and largely Asian-manufactured, so this is a low-yield show for direct leads. Its value is spotting brands announcing European manufacturing, which is the signal worth acting on in that sector.",
+   "todo": "Low priority. Watch the exhibitor list remotely rather than attending.",
+   "src": "https://www.ispo.com/",
+   "exlist": "https://www.ispo.com/"
+  },
+  {
+   "name": "COMPAMED / MEDICA",
+   "date": "2026-11-16",
+   "when": "November 2026 — confirm exact dates",
+   "where": "Düsseldorf, Germany",
+   "markets": "Medical & radiolucent",
+   "confirmed": "Dates to confirm",
+   "what": "The leading trade fair for medical device component suppliers, alongside MEDICA.",
+   "why": "Where the tier suppliers who actually build imaging tables and covers exhibit — which is the right level to target, since the OEMs rarely specify core themselves. Radiolucent PMI is already incumbent here, so this is about defending and extending.",
+   "todo": "Target component manufacturers and contract builders, not the imaging OEMs.",
+   "src": "https://www.compamed-tradefair.com/",
+   "exlist": "https://www.compamed-tradefair.com/"
+  },
+  {
+   "name": "Professional MotorSport World Expo",
+   "date": "2026-11-10",
+   "when": "November 2026 — confirm exact dates",
+   "where": "Cologne, Germany",
+   "markets": "Motorsport & automotive",
+   "confirmed": "Dates to confirm",
+   "what": "Motorsport engineering and technology suppliers, co-located with related automotive expos.",
+   "why": "Motorsport composite fabricators and tub builders in one place. Smaller and more technical than a general automotive show, which suits a core material conversation.",
+   "todo": "Confirm dates. Good pairing with Advanced Engineering in the same month.",
+   "src": "https://www.pmw-expo.com/",
+   "exlist": "https://www.pmw-expo.com/"
+  }
+ ],
+ "shows_note": "Every show relevant to the nine markets, nearest first. <strong>Confirmed</strong> means the dates come from the organiser or venue; <strong>Dates to confirm</strong> means the event is real but the exact dates still need checking &mdash; treat those as diary placeholders, not bookings.<br><br>Exhibitor lists are one of the few genuinely pre-qualified target lists available free: a company paying for a stand is by definition active in that market, and lists publish months ahead. The daily scan watches for them and cross-checks against the tracked companies.<br><br>Not every show here is worth attending, and the notes say so plainly &mdash; METSTRADE and ISPO are listed mainly so you can see they were considered and why they rank low."
+}
