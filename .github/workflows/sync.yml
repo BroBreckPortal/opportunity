@@ -1,0 +1,35 @@
+name: Sync radar state from live site
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch published files
+        run: |
+          curl -fsSL --retry 3 https://cerulean-faloodeh-21547f.netlify.app/data/companies.json -o fetched.json
+          curl -fsSL --retry 3 https://cerulean-faloodeh-21547f.netlify.app/_src/build_site.py -o fetched.py
+      - name: Refuse to commit a shrunken database
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          new = json.load(open('fetched.json'))
+          old = json.load(open('companies.json'))
+          for k in ('companies','research','users','shows','briefs'):
+              n, o = len(new.get(k,[])), len(old.get(k,[]))
+              if n < o: sys.exit(f"refusing: {k} shrank {o} -> {n}")
+          print("ok", {k: len(new.get(k,[])) for k in ('companies','research','users','shows','briefs')})
+          PY
+      - name: Commit if changed
+        run: |
+          mv fetched.json companies.json && mv fetched.py build_site.py
+          git diff --quiet && { echo "no change"; exit 0; }
+          git config user.name radar-sync
+          git config user.email actions@github.com
+          git commit -am "sync state from live site $(date -u +%F)"
+          git push
