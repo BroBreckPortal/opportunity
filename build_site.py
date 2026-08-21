@@ -200,6 +200,64 @@ padding:13px 16px;cursor:pointer;list-style:none;transition:background .12s}
  .rbody{padding:4px 14px 18px 14px}
 }
 
+/* ---- directory ---- */
+.dlegend{grid-template-columns:1fr 118px 168px 44px 128px}
+.dirrows{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.dirrows .row>summary{grid-template-columns:1fr 118px 168px 44px 128px}
+.pri{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:7px;
+font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums}
+.p1{background:var(--good);color:#fff}
+.p2{background:color-mix(in srgb,var(--good) 26%,transparent);color:var(--good)}
+.p3{background:var(--alt);color:var(--ink2);border:1px solid var(--line)}
+.p4{background:transparent;color:var(--muted);border:1px dashed var(--line)}
+.tag.e-confirmed{color:var(--good);border-color:var(--good);background:color-mix(in srgb,var(--good) 10%,transparent)}
+.tag.e-conversion{color:var(--warn);border-color:var(--warn);background:color-mix(in srgb,var(--warn) 12%,transparent)}
+.tag.e-inferred{color:var(--muted)}
+.tag.e-direct{color:var(--muted);border-style:dashed}
+.row.ev-confirmed .rn:before{background:var(--good)}
+.row.ev-conversion .rn:before{background:var(--warn)}
+.row.ev-inferred .rn:before{background:var(--rule)}
+.row.ev-direct .rn:before{background:transparent;border-left:3px dashed var(--rule)}
+
+/* ---- playbook ---- */
+.callout{border-radius:14px;padding:17px 20px;margin:22px 0;border:1px solid var(--line);background:var(--card);box-shadow:var(--shadow)}
+.callout.warn{border-left:3px solid var(--warn);background:color-mix(in srgb,var(--warn) 7%,var(--card))}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:16px 0 6px}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:17px 19px;box-shadow:var(--shadow)}
+.pcard h3{margin:0 0 9px;font-size:16px;font-weight:620;display:flex;align-items:center;gap:9px}
+.pcard .rule{color:var(--ink);font-weight:520;margin:0 0 8px}
+.pcard p{margin:0;color:var(--ink2);font-size:14.5px}
+.pcard.ev-confirmed{border-left:3px solid var(--good)}
+.pcard.ev-conversion{border-left:3px solid var(--warn)}
+.pcard.ev-inferred{border-left:3px solid var(--rule)}
+.pcard.ev-direct{border-left:3px dashed var(--rule)}
+ol.qs{list-style:none;padding:0;margin:16px 0 0;counter-reset:q}
+ol.qs li{display:flex;gap:15px;background:var(--card);border:1px solid var(--line);border-radius:14px;
+padding:16px 19px;margin-bottom:10px;box-shadow:var(--shadow)}
+.qn{flex:0 0 30px;height:30px;border-radius:9px;background:var(--accent);color:#fff;
+display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14.5px}
+ol.qs strong{display:block;font-size:16px;font-weight:600;letter-spacing:-.01em;margin-bottom:5px}
+ol.qs p{margin:0;color:var(--ink2);font-size:14.5px}
+dl.gloss{display:grid;grid-template-columns:180px 1fr;gap:0;background:var(--card);
+border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);margin-top:16px}
+dl.gloss dt{padding:14px 16px;font-weight:640;color:var(--ink);font-size:15px;text-transform:none;
+letter-spacing:0;border-top:1px solid var(--rule);background:var(--alt)}
+dl.gloss dd{padding:14px 18px;margin:0;color:var(--ink2);border-top:1px solid var(--rule);font-size:14.5px}
+dl.gloss dt:first-of-type,dl.gloss dd:first-of-type{border-top:0}
+@media (max-width:760px){
+ .dlegend{display:none}
+ .dirrows .row>summary{grid-template-columns:1fr 30px 110px;gap:7px 9px}
+ .dirrows .rn{grid-column:1;grid-row:1}
+ .dirrows .pri{grid-column:2;grid-row:1;justify-self:end}
+ .dirrows .rm{grid-column:1;grid-row:2}
+ .dirrows .rw{grid-column:1;grid-row:3}
+ .dirrows .row>summary .tag{grid-column:2/4;grid-row:2;justify-self:end}
+ dl.gloss{grid-template-columns:1fr}
+ dl.gloss dd{padding-top:0;border-top:0}
+ dl.gloss dt{border-top:1px solid var(--rule)}
+ ol.qs li{padding:14px 15px;gap:12px}
+}
+
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);
 font-size:12.5px;color:var(--muted);line-height:1.65}
 .top-link{display:inline-block;margin-top:14px;font-size:13px}
@@ -230,10 +288,10 @@ font-size:12.5px;color:var(--muted);line-height:1.65}
 
 def page(title, body, depth=0, active=""):
     up = "../" * depth
-    nav = [("index.html","Opportunities","opps"),("users.html","Rohacell users","users"),
-           ("shows.html","Shows","shows"),
-           ("research.html","Research","res"),
-           ("search.html","Search","search"),("archive/index.html","Archive","arch")]
+    nav = [("index.html","Opportunities","opps"),("directory.html","Directory","dir"),
+           ("playbook.html","Playbook","play"),
+           ("shows.html","Shows","shows"),("research.html","Research","res"),
+           ("search.html","Search","search")]
     navhtml = "".join('<a href="%s%s"%s>%s</a>' % (up, h, ' class="on"' if k==active else '', l)
                       for h,l,k in nav)
     return """<!DOCTYPE html>
@@ -346,7 +404,7 @@ def build(dbpath, outdir):
     _bl = db.get('briefs', [])
     briefs = [b for _, b in sorted(enumerate(_bl), key=lambda t: (t[1]['date'], t[0]), reverse=True)]
     updated = db['meta'].get('updated', datetime.date.today().isoformat())
-    for d in ('assets','company','archive','data','_src'):
+    for d in ('assets','company','data','_src'):
         os.makedirs(os.path.join(outdir, d), exist_ok=True)
     open(os.path.join(outdir,'assets','style.css'),'w').write(CSS)
     open(os.path.join(outdir,'robots.txt'),'w').write('User-agent: *\nDisallow: /\n')
@@ -399,8 +457,7 @@ def build(dbpath, outdir):
     body = (head + summ
       + '<h2>All targets</h2>'
       + '<p class="note">Everything in one list, best fit first. Tap a row to open it. '
-        'See also <a href="research.html">research</a>, '
-        '<a href="users.html">who already uses ROHACELL</a>, and '
+        'See also <a href="research.html">research</a> and '
         '<a href="shows.html">trade shows</a>.</p>'
       + chips + '<p class="count" id="count"></p>' + legend
       + '<div id="rows">' + rowhtml + '</div>'
@@ -446,24 +503,114 @@ def build(dbpath, outdir):
         open(os.path.join(outdir,'company','%s.html' % c['slug']),'w').write(
             page('%s — ROHACELL Radar' % c['name'], cbody, 1, 'opps'))
 
-    # archive
-    abody = '<h1>Daily archive</h1><p class="sub">Every morning scan, kept in full.</p><ul class="plain">'
-    for b in briefs:
-        abody += ('<li><strong><a href="%s.html">%s</a></strong> — %s</li>'
-                  % (b.get('_file', b['date']), b['date'], H.escape(b['headline'])))
-    abody += '</ul>'
-    open(os.path.join(outdir,'archive','index.html'),'w').write(page('Daily archive — ROHACELL Radar', abody, 1, 'arch'))
-    bymap = {c['slug']: c for c in comps}
-    seen_dates = {}
-    for b in briefs:
-        n = seen_dates.get(b['date'], 0); seen_dates[b['date']] = n + 1
-        b['_file'] = b['date'] if n == 0 else '%s-%d' % (b['date'], n + 1)
-        named = [bymap[s] for s in b.get('companies', []) if s in bymap]
-        bb = ('<h1>Scan of %s</h1><p class="sub">%s</p>' % (b['date'], H.escape(b['headline']))
-              + '<div class="summary"><p>%s</p></div>' % H.escape(b.get('summary',''))
-              + ('<h2>Companies in this scan</h2>' + "".join(card(c, 1) for c in named) if named else ''))
-        open(os.path.join(outdir,'archive','%s.html' % b['_file']),'w').write(
-            page('Scan of %s — ROHACELL Radar' % b['date'], bb, 1, 'arch'))
+    # ---------------- DIRECTORY ----------------
+    drow = db.get('directory', [])
+    EVORD = {'confirmed':0,'conversion':1,'inferred':2,'direct':3}
+    drow = sorted(drow, key=lambda d: (str(d.get('priority') or '9'),
+                                       EVORD.get(d.get('ev','inferred'),9), d['name']))
+    dsecs, dcountries = [], []
+    for d in drow:
+        if d['sector'] not in dsecs: dsecs.append(d['sector'])
+        if d['country'] and d['country'] not in dcountries: dcountries.append(d['country'])
+    dchips = ('<div class="chips" id="dchips">'
+              '<button class="chip" data-k="all" data-v="all" aria-pressed="true">Everyone <span class="cn">%d</span></button>'
+              % len(drow))
+    for p in ('1','2','3','4'):
+        n = len([x for x in drow if str(x.get('priority'))==p])
+        if n: dchips += ('<button class="chip" data-k="pri" data-v="%s">Priority %s <span class="cn">%d</span></button>' % (p,p,n))
+    dchips += '<span class="chipgap"></span>'
+    for k, lab in (('confirmed','Confirmed'),('conversion','Conversion targets'),('inferred','Inferred'),('direct','Deprioritised')):
+        n = len([x for x in drow if x.get('ev')==k])
+        if n: dchips += ('<button class="chip" data-k="ev" data-v="%s">%s <span class="cn">%d</span></button>' % (k, lab, n))
+    dchips += '<span class="chipgap"></span>'
+    for sname in dsecs:
+        n = len([x for x in drow if x['sector']==sname])
+        dchips += ('<button class="chip" data-k="sec" data-v="%s">%s <span class="cn">%d</span></button>'
+                   % (H.escape(sname), H.escape(sname), n))
+    dchips += '</div>'
+
+    dbody = ('<h1>Directory &mdash; who&rsquo;s who</h1>'
+      '<p class="sub">%d companies across %d countries &middot; priority order</p>'
+      '<div class="summary"><p>%s</p></div>'
+      % (len(drow), len(dcountries), db.get('directory_note','')))
+    dbody += ('<p class="note">New to this? Read the <a href="playbook.html">Playbook</a> first &mdash; '
+              'it explains the evidence tags, the priority numbers and the six questions that qualify a lead in two minutes.</p>')
+    dbody += dchips + '<p class="count" id="dcount"></p>'
+    dbody += ('<div class="legend dlegend"><span>Company</span><span>Sector</span>'
+              '<span>Where</span><span>Pri</span><span>Evidence</span></div>')
+    dbody += '<div id="rows" class="dirrows">'
+    for d in drow:
+        cross = ''
+        if d.get('slug'):
+            cross = ('<dt>Also tracked</dt><dd><a href="company/%s.html">On the scored radar &rarr;</a></dd>' % d['slug'])
+        pri = str(d.get('priority') or '—')
+        dbody += ("""
+<details class="row ev-%s" data-pri="%s" data-ev="%s" data-sec="%s">
+  <summary>
+    <span class="rn">%s</span>
+    <span class="rm">%s</span>
+    <span class="rw">%s</span>
+    <span class="pri p%s">%s</span>
+    <span class="tag e-%s">%s</span>
+  </summary>
+  <div class="rbody"><dl>
+    <dt>What they make</dt><dd>%s</dd>
+    <dt>Why ROHACELL fits</dt><dd class="opp">%s</dd>
+    <dt>Evidence</dt><dd>%s</dd>
+    <dt>Size / type</dt><dd>%s</dd>%s
+    <dt>Find them</dt><dd>%s</dd>
+  </dl></div>
+</details>""" % (d.get('ev','inferred'), pri, d.get('ev','inferred'), H.escape(d['sector']),
+                 H.escape(d['name']), H.escape(d['sector']),
+                 H.escape((d['location'] or d['country'])[:46]),
+                 pri, pri, d.get('ev','inferred'), H.escape(d.get('evlabel','')),
+                 H.escape(d['makes']) or '&mdash;', H.escape(d['fit']) or '&mdash;',
+                 H.escape(d['evidence']) or '&mdash;', H.escape(d['size']) or '&mdash;', cross,
+                 '<a class="li" href="https://www.linkedin.com/search/results/companies/?keywords=%s">LinkedIn</a>'
+                 '<a class="li" href="https://duckduckgo.com/?q=%s">Web search</a>'
+                 % (_up.quote(d['name']), _up.quote(d['name'] + ' ' + (d['country'] or '')))))
+    dbody += '</div>'
+    dbody += ('<script>(function(){var ch=[].slice.call(document.querySelectorAll("#dchips .chip")),'
+      'rs=[].slice.call(document.querySelectorAll("#rows .row")),c=document.getElementById("dcount");'
+      'function go(k,v){var n=0;rs.forEach(function(r){var ok=(k==="all")||(k==="pri"&&r.dataset.pri===v)'
+      '||(k==="ev"&&r.dataset.ev===v)||(k==="sec"&&r.dataset.sec===v);'
+      'r.style.display=ok?"":"none";r.open=false;if(ok)n++;});c.textContent=n+" of "+rs.length+" shown";}'
+      'ch.forEach(function(x){x.addEventListener("click",function(){'
+      'ch.forEach(function(o){o.setAttribute("aria-pressed",o===x?"true":"false")});go(x.dataset.k,x.dataset.v);});});'
+      'go("all","all");})();</script>')
+    open(os.path.join(outdir,'directory.html'),'w').write(
+        page('Directory — ROHACELL Radar', dbody, 0, 'dir'))
+
+    # ---------------- PLAYBOOK ----------------
+    pb = db.get('playbook', {})
+    pbody = ('<h1>Playbook</h1><p class="sub">How to read the list, how to qualify a lead, and what the words mean.</p>'
+             '<div class="summary"><p>%s</p></div>' % H.escape(pb.get('intro','')))
+    if pb.get('honesty'):
+        pbody += ('<div class="callout warn"><strong>The honesty rule.</strong> %s</div>' % pb['honesty'])
+    pbody += '<h2>Evidence tags</h2><p class="note">On every directory entry. This is the most important thing on the page.</p><div class="grid2">'
+    for e in pb.get('evidence', []):
+        pbody += ('<div class="pcard ev-%s"><h3><span class="tag e-%s">%s</span></h3>'
+                  '<p class="rule">%s</p><p>%s</p></div>'
+                  % (e['key'], e['key'], H.escape(e['label']), H.escape(e['rule']), H.escape(e['do'])))
+    pbody += '</div>'
+    pbody += '<h2>Priority numbers</h2><div class="grid2">'
+    for p in pb.get('priority', []):
+        pbody += ('<div class="pcard"><h3><span class="pri p%s">%s</span> %s</h3><p>%s</p></div>'
+                  % (p['n'], p['n'], H.escape(p['label']), H.escape(p['text'])))
+    pbody += '</div>'
+    pbody += ('<h2>Six questions that qualify any lead in two minutes</h2>'
+              '<p class="note">Ask these in order. By question three you usually know whether it is real.</p><ol class="qs">')
+    for i, q in enumerate(pb.get('questions', []), 1):
+        pbody += ('<li><span class="qn">%d</span><div><strong>%s</strong><p>%s</p></div></li>'
+                  % (i, H.escape(q['q']), H.escape(q['why'])))
+    pbody += '</ol>'
+    pbody += ('<h2>Glossary</h2><p class="note">The vocabulary a new starter needs before their first technical call.</p>'
+              '<dl class="gloss">')
+    for t in pb.get('terms', []):
+        pbody += '<dt>%s</dt><dd>%s</dd>' % (H.escape(t['t']), H.escape(t['d']))
+    pbody += '</dl>'
+    open(os.path.join(outdir,'playbook.html'),'w').write(
+        page('Playbook — ROHACELL Radar', pbody, 0, 'play'))
 
     # trade shows
     shows = sorted(db.get('shows', []), key=lambda x: x.get('date','9999'))
@@ -554,63 +701,6 @@ def build(dbpath, outdir):
     open(os.path.join(outdir,'research.html'),'w').write(
         page('Research and publications — Radar', rbody, 0, 'res'))
 
-    # who already uses ROHACELL
-    ORDER = {'End product':0, 'Application':1, 'Converter':2, 'Converter / stockist':2,
-             'Panel maker':3, 'Distributor':4, 'Stockist':5}
-    users = sorted(db.get('users', []),
-                   key=lambda u: (ORDER.get(u.get('kind',''), 9),
-                                  0 if u.get('conf')=='High' else 1, u['name']))
-    ukinds = []
-    for u in users:
-        k = u.get('kind','')
-        if k not in ukinds: ukinds.append(k)
-    uchips = '<div class="chips" id="uchips"><button class="chip" data-v="all" aria-pressed="true">Everything <span class="cn">%d</span></button>' % len(users)
-    for k in ukinds:
-        uchips += ('<button class="chip" data-v="%s">%s <span class="cn">%d</span></button>'
-                   % (H.escape(k), H.escape(k), len([x for x in users if x.get('kind')==k])))
-    uchips += '</div>'
-
-    ubody = ('<h1>Who already uses ROHACELL&reg;</h1>'
-      '<p class="sub">Everyone publicly on record &mdash; end products first, then converters and channel.</p>'
-      '<div class="summary"><p>%s</p></div>' % db.get('users_note',''))
-    ubody += uchips + '<p class="count" id="ucount"></p>'
-    ubody += ('<div class="legend ulegend"><span>Name</span><span>Type</span><span>Where</span>'
-              '<span>Evidence</span></div>')
-    ubody += '<div id="rows" class="users">'
-    for u in users:
-        li = ('<a class="li" href="%s">LinkedIn</a>' % u['linkedin']) if u.get('linkedin') else (
-             '<a class="li" href="https://www.linkedin.com/search/results/companies/?keywords=%s">LinkedIn &mdash; find them</a>'
-             % _up.quote(u['name']))
-        cf = u.get('conf','Medium')
-        cross = ''
-        if u.get('slug') and u['slug'] in {c['slug'] for c in comps}:
-            nm = [c['name'] for c in comps if c['slug']==u['slug']][0]
-            cross = ('<dt>Also tracked</dt><dd><a href="company/%s.html">%s &mdash; in the opportunity list</a></dd>'
-                     % (u['slug'], H.escape(nm)))
-        ubody += ("""
-<details class="row u%s" data-kind="%s">
-  <summary><span class="rn">%s</span><span class="rm">%s</span><span class="rw">%s</span>
-  <span class="tag %s">%s</span></summary>
-  <div class="rbody"><p class="opp">%s</p><dl>
-  <dt>What they do</dt><dd>%s</dd>%s
-  <dt>Source</dt><dd><a href="%s">%s</a><div style="margin-top:9px">%s</div></dd>
-  </dl></div>
-</details>""" % ('hi' if cf=='High' else 'md', H.escape(u.get('kind','')),
-                 H.escape(u['name']), H.escape(u.get('kind','')), H.escape(u['country']),
-                 'st-qual' if cf=='High' else 'st-watch', H.escape(cf),
-                 u['why'], H.escape(u['what']), cross, u['src'],
-                 H.escape(u['src'].replace('https://','').split('/')[0]), li))
-    ubody += '</div>'
-    ubody += ('<script>(function(){var ch=[].slice.call(document.querySelectorAll("#uchips .chip")),'
-      'rs=[].slice.call(document.querySelectorAll("#rows .row")),c=document.getElementById("ucount");'
-      'function go(v){var n=0;rs.forEach(function(r){var ok=(v==="all"||r.dataset.kind===v);'
-      'r.style.display=ok?"":"none";r.open=false;if(ok)n++;});c.textContent=n+" of "+rs.length+" shown";}'
-      'ch.forEach(function(x){x.addEventListener("click",function(){'
-      'ch.forEach(function(o){o.setAttribute("aria-pressed",o===x?"true":"false")});go(x.dataset.v);});});'
-      'go("all");})();</script>')
-    open(os.path.join(outdir,'users.html'),'w').write(
-        page('Who uses ROHACELL — Radar', ubody, 0, 'users'))
-
     # search index
     idx = []
     for r in res:
@@ -625,23 +715,23 @@ def build(dbpath, outdir):
         for e in c.get('events', []):
             idx.append(dict(t='event', n='%s — %s' % (c['name'], e['kind']), u='company/%s.html' % c['slug'],
                             m=e['date'], x=e['text']))
+    for d in drow:
+        idx.append(dict(t='directory', n=d['name'], u='directory.html',
+                        m='%s · %s · %s' % (d['sector'], d.get('location') or d.get('country',''), d.get('evlabel','')),
+                        x='%s %s %s' % (d.get('makes',''), d.get('fit',''), d.get('size',''))))
+    for t in db.get('playbook',{}).get('terms',[]):
+        idx.append(dict(t='glossary', n=t['t'], u='playbook.html', m='Glossary', x=t['d']))
     for sh in shows:
         idx.append(dict(t='show', n=sh['name'], u='shows.html',
                         m='%s · %s' % (sh['when'], sh['where']),
                         x='%s %s' % (sh.get('what',''), strip(sh.get('why','')))))
-    for u in users:
-        idx.append(dict(t='user', n='%s — %s' % (u['name'], u['kind']), u='users.html',
-                        m=u['country'], x='%s %s' % (u.get('what',''), strip(u.get('why','')))))
-    for b in briefs:
-        idx.append(dict(t='brief', n='Scan of %s' % b['date'], u='archive/%s.html' % b.get('_file', b['date']),
-                        m=b['date'], x=b['headline'] + ' ' + b.get('summary','')))
     sbody = ('<h1>Search</h1>'
       '<input id="q" type="search" placeholder="Company, country, platform, keyword&hellip;" autofocus>'
-      '<p class="hint">Searches every company, every logged event and every daily scan. '
+      '<p class="hint">Searches every company, every logged event, the directory, research, shows and the glossary. '
       'Try &ldquo;Swindon&rdquo;, &ldquo;autoclave&rdquo;, &ldquo;cargo&rdquo; or &ldquo;Germany&rdquo;.</p>'
       '<div id="r"></div>'
       '<noscript><p class="hint">Search needs JavaScript. Everything is also browsable from '
-      '<a href="index.html">Opportunities</a> and the <a href="archive/index.html">archive</a>.</p></noscript>'
+      '<a href="index.html">Opportunities</a>.</p></noscript>'
       '<script>var IDX=' + json.dumps(idx, ensure_ascii=False) + ';' + SEARCH_JS + '</script>')
     open(os.path.join(outdir,'search.html'),'w').write(page('Search — ROHACELL Radar', sbody, 0, 'search'))
 
